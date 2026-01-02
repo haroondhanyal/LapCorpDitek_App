@@ -1,0 +1,19 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Name entered: McGlynn, Towne and Cummings
+🟢 Site Address 1 entered: 96026 Priory Close
+🟢 Site Address 2 entered: Apt. 376
+🟢 City entered: Aracelihaven
+🟢 State entered: Oregon
+🟢 Zip Code entered: 10832
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 7963 Deckow Rest
+🟢 Billing Address 2 entered: Suite 625

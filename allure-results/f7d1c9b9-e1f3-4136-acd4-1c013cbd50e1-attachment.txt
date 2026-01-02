@@ -1,0 +1,22 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Name entered: Mosciski and Sons
+🟢 Site Address 1 entered: 7369 Wanda Circle
+🟢 Site Address 2 entered: Suite 617
+🟢 City entered: Reichelstead
+🟢 State entered: Indiana
+🟢 Zip Code entered: 51047
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 88595 The Poplars
+🟢 Billing Address 2 entered: Apt. 768
+🟢 Billing City entered: South Clintonboro
+🟢 Billing State entered: Nevada
+🟢 Billing Zip entered: 48175

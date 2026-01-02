@@ -1,0 +1,157 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img [ref=e10]
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - paragraph [ref=e16]: "Order ID: EMP-1001"
+        - generic [ref=e17]:
+          - button [ref=e18] [cursor=pointer]: Download CSV
+          - button [ref=e19] [cursor=pointer]: Download XLS
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e23]:
+            - paragraph [ref=e24]: Client Details
+            - generic [ref=e25]:
+              - generic [ref=e26]:
+                - paragraph [ref=e27]: Plan Name
+                - paragraph [ref=e28]: Kiehn - Maggio
+              - generic [ref=e29]:
+                - paragraph [ref=e30]: Plan Address
+                - paragraph [ref=e31]: 166 Eloise Centers,Strackeview,IN 29016
+              - generic [ref=e32]:
+                - paragraph [ref=e33]: Status
+                - paragraph [ref=e34]: Open
+              - generic [ref=e35]:
+                - paragraph [ref=e36]: Labcorp Billing Account Number
+                - paragraph [ref=e37]: "32026170"
+              - generic [ref=e38]:
+                - paragraph [ref=e39]: City
+                - paragraph [ref=e40]: Strackeview
+              - generic [ref=e41]:
+                - paragraph [ref=e42]: State
+                - paragraph [ref=e43]: IN
+              - generic [ref=e44]:
+                - paragraph [ref=e45]: Zip Code
+                - paragraph [ref=e46]: "29016"
+          - generic [ref=e48]:
+            - paragraph [ref=e49]: ATTN
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - paragraph [ref=e52]: Contact's name to recieve order
+                - paragraph [ref=e53]: Desiree Swift
+              - generic [ref=e54]:
+                - paragraph [ref=e55]: Contact's Phone
+                - paragraph [ref=e56]: "05060950146"
+              - generic [ref=e57]:
+                - paragraph [ref=e58]: Contact's Address
+                - paragraph [ref=e59]: "-"
+              - generic [ref=e60]:
+                - paragraph [ref=e61]: Special Instructions
+                - paragraph [ref=e62]: Please handle this order with care. Ensure delivery during office hours. Call the contact person before delivery.
+          - generic [ref=e64]:
+            - paragraph [ref=e65]: Order Details
+            - generic [ref=e66]:
+              - generic [ref=e67]:
+                - paragraph [ref=e68]: Order Date
+                - paragraph [ref=e69]: 12/27/2025, 12:29 PM
+              - generic [ref=e70]:
+                - paragraph [ref=e71]: Date Approved
+                - paragraph [ref=e72]: "-"
+              - generic [ref=e73]:
+                - paragraph [ref=e74]: Shipped Date
+                - paragraph [ref=e75]: "-"
+              - generic [ref=e76]:
+                - paragraph [ref=e77]: Kit Number
+                - paragraph [ref=e78]: "32026170"
+              - generic [ref=e79]:
+                - paragraph [ref=e80]: Lab Ticket
+                - paragraph [ref=e81]: G0BSH57P8N
+              - generic [ref=e82]:
+                - paragraph [ref=e83]: Kit Name
+                - paragraph [ref=e84]: Single Site - ADX Kit
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: Kit Packaging
+                - paragraph [ref=e87]: "-"
+              - generic [ref=e88]:
+                - paragraph [ref=e89]: Qty
+                - paragraph [ref=e90]: "30"
+              - generic [ref=e91]:
+                - paragraph [ref=e92]: Letter Print
+                - paragraph [ref=e93]: "-"
+              - generic [ref=e94]:
+                - paragraph [ref=e95]: TRF Template
+                - paragraph [ref=e96]: "-"
+              - generic [ref=e97]:
+                - paragraph [ref=e98]: Kit Instructions
+                - paragraph [ref=e99]: "-"
+              - generic [ref=e100]:
+                - paragraph [ref=e101]: Lab
+                - paragraph [ref=e102]: "Labcorp, ATTN: Direct Testing Lab, 1447 York CT, Burlington NC 27215-3361"
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: Return Address
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - paragraph [ref=e108]: ATTN
+                - paragraph [ref=e109]: "Labcorp, ATTN: Direct Testing Lab, 1447 York CT, Burlington NC 27215-3361"
+              - generic [ref=e110]:
+                - paragraph [ref=e111]: In-Kit Letter Template
+                - paragraph [ref=e112]: https://labcorpdev.blob.core.windows.net/labcorpdocs/EMP-1001_InKitLetter.pdf
+                - button [ref=e114] [cursor=pointer]: View File
+        - generic [ref=e117]:
+          - paragraph [ref=e118]: Order Summary
+          - generic [ref=e119]:
+            - img [ref=e121]
+            - generic [ref=e122]:
+              - paragraph [ref=e123]: Single Site - ADX Kit
+              - paragraph [ref=e124]: SKU Num. -
+            - generic [ref=e125]:
+              - paragraph [ref=e126]: Qty
+              - generic [ref=e128]:
+                - spinbutton [ref=e129]: "30"
+                - group
+            - generic [ref=e130]:
+              - paragraph [ref=e131]: Order Notes
+              - paragraph [ref=e132]: Cado laborum victus causa. Tardus dolores conventus spoliatio molestiae timidus thesis videlicet. Vigilo careo dedico.
+        - button [ref=e137] [cursor=pointer]:
+          - img [ref=e139]
+          - text: Show Patient Details
+  - iframe [ref=e143]:
+    - generic [ref=f5e2]:
+      - generic [ref=f5e5]:
+        - link "Privacy" [ref=f5e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f5e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f5e8]:
+        - generic [ref=f5e9]:
+          - text: protected by
+          - strong [ref=f5e10]: reCAPTCHA
+        - generic [ref=f5e11]: "-"
+  - dialog [ref=e146]:
+    - generic [ref=e147]:
+      - heading "Protected Information Access" [level=1] [ref=e148]
+      - heading "This user is trying to access protected patient information" [level=6] [ref=e149]
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: "User Id: 87"
+        - paragraph [ref=e153]: "Username: rharoon@medzah.com"
+        - paragraph [ref=e154]: "Access Date: December 29, 2025 at 08:56 PM"
+      - generic [ref=e155]:
+        - heading "Please select a reason for viewing patient details" [level=6] [ref=e156]
+        - generic [ref=e157]:
+          - combobox [ref=e158] [cursor=pointer]
+          - textbox
+          - img
+          - group
+        - paragraph [ref=e159]: Please select a reason to proceed
+    - generic [ref=e160]:
+      - button "View Patient Details" [disabled]
+```

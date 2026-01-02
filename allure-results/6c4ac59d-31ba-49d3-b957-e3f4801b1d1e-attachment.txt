@@ -1,0 +1,29 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Group clicked: directToPatient
+🟢 Continue button clicked
+✅ Group selected successfully: directToPatient
+✅ Login + Group selection done
+🧪 Faker Data: {
+  planName: 'Marks LLC',
+  planAddress: '171 First Avenue',
+  city: 'Ellicott City',
+  state: 'CO',
+  zipCode: '90358',
+  contactName: 'Lucille McKenzie IV',
+  contactPhone: '06617081232',
+  contactAddress: '67468 Johnson Track',
+  specialInstructions: 'Please handle this order with care.\n' +
+    'Ensure delivery during office hours.\n' +
+    'Call the contact person before delivery.',
+  notes: 'Armarium conventus coepi ducimus eveniet convoco vulnus strues. Vapulus ultio decipio torqueo totam culpa sopor ulterius crastinus cenaculum. Dolorem arca verus tutamen. Uxor thema voluptatum vapulus virga vulgus attonbitus armarium. Defero appello consuasor. Nihil tergo cursim totam a atrox.',
+  mailDate: '2025-12-26',
+  labTicket: 'TKQTGCR7QC'
+}
+🟢 CSV uploaded
+🟢 Notes entered
+🟢 Custom Requisition checkbox enabled
+🟢 Patient Details checkbox enabled
+🟢 Patient details viewed
+🟢 Patient details  closed
+🟢 PDF uploaded

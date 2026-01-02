@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 867268
+🟢 Site Name entered: Towne Group
+🟢 Site Address 1 entered: 37965 Pearl Street
+🟢 Site Address 2 entered: Suite 383
+🟢 City entered: Kylerhaven
+🟢 State entered: Hawaii
+🟢 Zip Code entered: 02533
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 16255 Berneice Plains
+🟢 Billing Address 2 entered: Apt. 597
+🟢 Billing City entered: Amiyaworth
+🟢 Billing State entered: New Mexico
+🟢 Billing Zip entered: 38751
+🟢 Billing Country entered: Peru
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

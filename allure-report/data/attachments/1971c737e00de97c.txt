@@ -1,0 +1,34 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Group clicked: directToPatient
+🟢 Continue button clicked
+✅ Group selected successfully: directToPatient
+✅ Login + Group selection done
+🧪 Faker Data: {
+  planName: 'Stamm LLC',
+  planAddress: '94764 Rectory Lane',
+  city: 'Lake Ilaberg',
+  state: 'FL',
+  zipCode: '08058',
+  contactName: 'Perry Treutel',
+  contactPhone: '03865052100',
+  contactAddress: '99715 DuBuque Street',
+  specialInstructions: 'Please handle this order with care.\n' +
+    'Ensure delivery during office hours.\n' +
+    'Call the contact person before delivery.',
+  notes: 'Calcar dolorem tutamen thalassinus sodalitas decipio. Delectus atrocitas centum patior. Molestiae veritatis tepesco aureus vulgaris aurum thalassinus valde tot. Curia bos cur comprehendo.',
+  mailDate: '2025-12-26',
+  labTicket: 'ALNYLZ35OI'
+}
+🟢 CSV uploaded
+🟢 Notes entered
+🟢 Custom Requisition checkbox enabled
+🟢 Patient Details checkbox enabled
+🟢 Patient details viewed
+🟢 Patient details  closed
+🟢 PDF uploaded
+🟢 Place Order clicked
+⏳ Waiting for Order Confirmation modal...
+🟢 Order Confirmation modal appeared
+🟢 Submit Additional Order clicked
+✅ Direct to Patient order placed successfully

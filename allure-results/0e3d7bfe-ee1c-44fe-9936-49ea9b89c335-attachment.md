@@ -1,0 +1,150 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: Place New Order
+      - paragraph [ref=e15]: "*Indicates a required field"
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Search and Add Kit
+          - generic [ref=e20]:
+            - paragraph [ref=e21]: Upload CSV
+            - generic [ref=e23]:
+              - paragraph [ref=e24]: EMP-1001-Single-Site 2.csv
+              - generic [ref=e25]:
+                - generic [ref=e26] [cursor=pointer]: View File
+                - generic [ref=e27] [cursor=pointer]: Remove File
+              - button "Upload" [ref=e28] [cursor=pointer]
+            - generic [ref=e29]:
+              - paragraph [ref=e30]: Material
+              - paragraph [ref=e31]: Qty
+            - generic [ref=e32]:
+              - generic [ref=e33]:
+                - img "Single Site - ADX Kit" [ref=e34]
+                - generic [ref=e35]:
+                  - paragraph [ref=e36]: Single Site - ADX Kit
+                  - paragraph [ref=e37]: SKU Num.
+              - generic [ref=e40]:
+                - spinbutton [ref=e41]: "30"
+                - group
+            - generic [ref=e42]:
+              - generic [ref=e43]:
+                - paragraph [ref=e44]: Order Notes
+                - paragraph [ref=e45]: (Optional)
+              - textbox "Enter Notes" [ref=e46]
+          - generic [ref=e49]:
+            - generic [ref=e50] [cursor=pointer]:
+              - checkbox [ref=e51]
+              - img [ref=e52]
+            - paragraph [ref=e54]: Custom Requistion
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Client Details
+          - generic [ref=e57]:
+            - generic [ref=e59]:
+              - generic [ref=e61]:
+                - generic [ref=e62]: Plan Name*
+                - generic [ref=e63]:
+                  - textbox "Plan Name*" [ref=e64]: Rolfson - Nicolas
+                  - group:
+                    - generic: Plan Name*
+              - generic [ref=e66]:
+                - generic [ref=e67]: Plan Address*
+                - generic [ref=e68]:
+                  - textbox "Plan Address*" [ref=e69]: 33837 S Oak Street
+                  - group:
+                    - generic: Plan Address*
+              - generic [ref=e71]:
+                - generic [ref=e72]: City*
+                - generic [ref=e73]:
+                  - textbox "City*" [ref=e74]: Fort Hollis
+                  - group:
+                    - generic: City*
+              - generic [ref=e76]:
+                - generic [ref=e77]: State*
+                - generic [ref=e78]:
+                  - textbox "State*" [ref=e79]: Minnesota
+                  - group:
+                    - generic: State*
+              - generic [ref=e81]:
+                - generic [ref=e82]: Zip Code*
+                - generic [ref=e83]:
+                  - textbox "Zip Code*" [ref=e84]: "03368"
+                  - group:
+                    - generic: Zip Code*
+            - generic [ref=e85]:
+              - heading "ATTN" [level=6] [ref=e86]
+              - generic [ref=e87]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: Contact's name to receive order
+                  - generic [ref=e91]:
+                    - textbox "Contact's name to receive order" [ref=e92]: Angelina Stokes
+                    - group:
+                      - generic: Contact's name to receive order
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Contact's Phone
+                  - generic [ref=e96]:
+                    - textbox "Contact's Phone" [ref=e97]: 621.262.1958
+                    - group:
+                      - generic: Contact's Phone
+                  - paragraph [ref=e98]: Phone number must be 10-15 digits
+                - textbox "Contact's Address" [ref=e100]: 8420 Dietrich Plains
+                - textbox "Special Instructions (Optional)" [ref=e102]: Voro cohibeo voluptas similique voluptate.
+            - generic [ref=e103]:
+              - heading "Order Details" [level=6] [ref=e104]
+              - generic [ref=e105]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Mail Date
+                  - generic [ref=e109]:
+                    - textbox "Mail Date" [ref=e110]
+                    - group:
+                      - generic: Mail Date
+                - generic [ref=e112]:
+                  - generic [ref=e113]: Lab Ticket
+                  - generic [ref=e114]:
+                    - textbox "Lab Ticket" [ref=e115]: "68679850"
+                    - group:
+                      - generic: Lab Ticket
+                - generic [ref=e117]:
+                  - generic [ref=e118]: Kit Name
+                  - generic [ref=e119]:
+                    - textbox "Kit Name" [ref=e120]: Single Site - ADX Kit
+                    - group:
+                      - generic: Kit Name
+                - generic [ref=e122]:
+                  - generic [ref=e123]: Volume
+                  - generic [ref=e124]:
+                    - textbox "Volume" [ref=e125]: "30"
+                    - group:
+                      - generic: Volume
+            - generic [ref=e126]:
+              - heading "Return Address" [level=6] [ref=e127]
+              - generic [ref=e129]:
+                - generic [ref=e130]: LabCorp Address*
+                - generic [ref=e131]:
+                  - textbox "LabCorp Address*" [ref=e132]: "Labcorp, ATTN: Direct Testing Lab, 1447 York CT, Burlington NC 27215-3361"
+                  - group:
+                    - generic: LabCorp Address*
+            - button "Place Order" [active] [ref=e134] [cursor=pointer]:
+              - text: Place Order
+              - img [ref=e135]
+  - iframe [ref=e139]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```

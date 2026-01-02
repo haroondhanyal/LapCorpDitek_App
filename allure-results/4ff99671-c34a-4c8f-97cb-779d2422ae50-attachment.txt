@@ -1,0 +1,11 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Client details filled
+🟢 Contact details filled
+🟢 CSV uploaded
+🟢 Mail date & lab ticket entered

@@ -1,0 +1,16 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Name entered: Stracke, Denesik and Veum
+🟢 Site Address 1 entered: 1611 Ike Rest
+🟢 Site Address 2 entered: Apt. 378
+🟢 City entered: Hansenchester
+🟢 State entered: South Dakota
+🟢 Zip Code entered: 59349
+🟢 All site details filled

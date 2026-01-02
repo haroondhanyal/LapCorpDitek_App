@@ -1,0 +1,318 @@
+// oncology('Oncology')
+
+// bulk order creTION 
+page.getByRole('button', { name: 'Create Bulk Orders' })
+
+
+
+// ADD TO Cart
+
+page.getByRole('button', { name: 'Add to Cart' })
+
+// open cart
+page.getByRole('img', { name: 'Cart' })
+
+// check out order ( icon flow )
+
+page.getByRole('button', { name: 'Go to Checkout' })
+
+// check out from the header
+page.locator('button').filter({ hasText: 'Checkout' }).first()
+
+
+
+
+
+// check out.  Cart order details
+
+// cusotmer PO nuber 
+
+page.getByRole('textbox', { name: 'Enter customer PO number' })
+
+// expideted order
+page.locator('input[name="isExpedited"]')
+
+
+// shipping information
+
+// select country
+
+page.locator('span').filter({ hasText: 'Select Option...' }).first()
+
+//shipping method
+
+page.locator('div').filter({ hasText: 'Select Option...' }).first()
+
+//FedEx Overnight checkbox 
+
+page.locator("//input[@name='fedExOvernight']")
+
+// contact information 
+
+//name
+page.locator("//input[@name='contactName']")
+
+// email
+page.getByRole('textbox', { name: 'Enter Email' })
+
+// phone no
+
+page.getByRole('textbox', { name: 'Enter Phone No.' })
+
+// customer Address
+
+// Name
+
+page.locator("//input[@name='shippingName']")
+
+// No
+page.locator('input[name="shippingNumber"]')
+
+// Address 1
+page.locator('input[name="shippingNumber"]')
+
+// Address 2
+page.locator('input[name="shippingAddress2"]')
+
+// City
+page.locator('input[name="shippingCity"]')
+
+// country selection
+page.locator('input[name="shippingCity"]')
+
+// after that select country
+
+page.locator('li').filter({ hasText: 'Canada' })
+
+page.locator('li:has-text("United States")')
+
+
+// select shipping state
+page.locator('#mui-component-select-shippingState')
+
+// city selection  when country is Canada
+page.getByText('Alberta')
+page.getByText('British Columbia')
+page.getByText('New Brunswick')
+page.getByText('Manitoba')
+page.getByText('Northwest Territories')
+page.getByText('Nunavut')
+page.getByText('Nova Scotia')
+page.getByText('Newfoundland and Labrador')
+
+// when country is United states
+page.getByText('Alabama')
+page.getByText('Alaska')
+page.getByText('Arizona')
+page.getByText('Arkansas')
+page.getByText('California')
+page.getByText('Colorado')
+page.getByText('Connecticut')
+page.getByText('Delaware')
+
+
+// zip code enter 
+page.locator('[name="shippingZipCode"]')
+
+
+
+// Different Billing address
+// Address 1
+page.locator("//input[@name='billingAddress1']")
+
+// address2
+page.locator("//input[@name='billingAddress2']")
+
+
+// billing city
+page.locator("//input[@name='billingCity']")
+
+
+// zip code
+page.locator("//input[@name='billingZipCode']")
+
+// country selection
+page.locator('#mui-component-select-billingCountry')
+
+// Canada
+page.getByText('Canada', { exact: true })
+
+page.getByText('Alberta')
+page.getByText('British Columbia')
+page.getByText('New Brunswick')
+page.getByText('Manitoba')
+page.getByText('Northwest Territories')
+page.getByText('Nunavut')
+page.getByText('Nova Scotia')
+page.getByText('Newfoundland and Labrador')
+
+
+
+
+//unites states
+page.locator('li:has-text("United States")')
+
+page.getByText('Alabama')
+page.getByText('Alaska')
+page.getByText('Arizona')
+page.getByText('Arkansas')
+page.getByText('California')
+page.getByText('Colorado')
+page.getByText('Connecticut')
+page.getByText('Delaware')
+
+
+
+
+
+
+// sites in oncology
+
+//  click on the sites tab 
+page.getByRole('link', { name: 'Sites' })
+
+// add new sites
+page.getByRole('button', { name: 'Add New Site' })
+
+// press on site group selection 
+page.getByText('Labcorp', { exact: true })
+
+// site number
+page.locator('[name="siteNumber"]')
+
+
+//Site name
+page.getByRole('textbox', { name: 'Site Name' })
+
+// address 1
+page.getByRole('textbox', { name: 'Address 1' })
+
+// address2
+page.getByRole('textbox', { name: 'Address 2' })
+
+// city 
+page.getByRole('textbox', { name: 'City' })
+
+// state 
+page.getByRole('textbox', { name: 'State' })
+
+//zip code
+page.getByRole('textbox', { name: 'Zip Code' })
+
+// cancel button
+page.getByRole('button', { name: 'Cancel' })
+
+// save button
+
+page.getByRole('button', { name: 'Save' })
+
+
+
+
+
+// change flow so 
+
+// change button press
+page.getByRole('button', { name: 'Change' })
+
+
+
+// chnage site Radio button 
+
+page.getByRole('radio')
+
+// after pressing th eradio button press on the select file 
+
+page.getByRole('button', { name: 'Select Site' })
+
+//chage site popup close 
+
+page.getByRole('img', { name: 'Close' })
+
+
+// now order summary 
+ 
+
+ // order remove
+ page.getByRole('img', { name: 'Remove' })
+
+ // specia instrution order Notes
+ page.getByRole('textbox', { name: /Add any notes to your order here/i })
+
+ // order to place 
+ page.getByRole('button', { name: 'Place Order' })
+
+
+
+
+ // recurring order toggle button
+
+ page.getByRole('switch')
+
+
+now recurring order repeat 
+
+// Dialy
+page.getByText('Daily', { exact: true })
+
+// every date selection
+page.locator('div').filter({ hasText: '1' }).first()
+
+
+Ends scnerion 
+
+page.locator("//input[@value='never']")
+
+// date by which it send 
+page.locator("//input[@value='on']")
+
+// calender picker
+
+page.locator('div.MuiPickersSectionList-root.MuiPickersInputBase-sectionsContainer.css-iiudf1')
+
+
+// ater scnerio
+
+page.locator("//input[@value='after']")
+
+// after ccurences
+page.locator('div').filter({ hasText: '1' }).last()
+
+now after above lall changs
+
+// save configurations
+page.getByRole('button', { name: 'Save Configuration' })
+
+// reset the form
+
+page.getByRole('button', { name: 'Save Configuration' })
+
+
+
+weekly repeat
+
+page.getByText('Su', { exact: true })
+page.getByText('Mo', { exact: true })
+page.getByText('Tu', { exact: true })
+page.getByText('We', { exact: true })
+page.getByText('Th', { exact: true })
+page.getByText('Fr', { exact: true })
+page.getByText('Sa', { exact: true })
+
+
+monthly 
+
+page.locator('div').filter({ hasText: '1' }).first()
+
+
+above loctors ( 1 to 30 karna hai as it is )
+
+
+
+
+yearly Mai
+page.getByText('Feb', { exact: true })
+page.getByText('Mar', { exact: true })
+
+from jan to dec sary months
+

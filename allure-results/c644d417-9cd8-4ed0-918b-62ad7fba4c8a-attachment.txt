@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 724947
+🟢 Site Name entered: Hauck, Robel and Hand
+🟢 Site Address 1 entered: 3861 Parker Turnpike
+🟢 Site Address 2 entered: Suite 548
+🟢 City entered: West Allis
+🟢 State entered: Maryland
+🟢 Zip Code entered: 52373
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 3439 Dock Plains
+🟢 Billing Address 2 entered: Suite 270
+🟢 Billing City entered: North Alphonso
+🟢 Billing State entered: Maine
+🟢 Billing Zip entered: 06076
+🟢 Billing Country entered: Barbados
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

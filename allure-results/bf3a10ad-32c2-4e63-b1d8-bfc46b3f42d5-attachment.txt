@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 294475
+🟢 Site Name entered: Batz - Jast
+🟢 Site Address 1 entered: 98487 Funk Neck
+🟢 Site Address 2 entered: Apt. 968
+🟢 City entered: Missoula
+🟢 State entered: Alabama
+🟢 Zip Code entered: 04685
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 621 Marguerite Forks
+🟢 Billing Address 2 entered: Suite 385
+🟢 Billing City entered: Sabrynaborough
+🟢 Billing State entered: Wyoming
+🟢 Billing Zip entered: 12973
+🟢 Billing Country entered: French Southern Territories
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

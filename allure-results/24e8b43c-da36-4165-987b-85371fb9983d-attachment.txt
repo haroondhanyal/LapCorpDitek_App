@@ -1,0 +1,21 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Group clicked: directToPatient
+🟢 Continue button clicked
+✅ Group selected successfully: directToPatient
+✅ Login + Group selection done
+🟢 CSV uploaded
+🟢 Notes entered
+🟢 Custom Requisition checkbox enabled
+🟢 Patient Details checkbox enabled
+🟢 Patient details viewed
+🟢 Patient details  closed
+🟢 PDF uploaded
+🟢 Place Order clicked
+⏳ Waiting for Order Confirmation modal...
+⚠ Modal did NOT appear or page closed
+Error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for getByText('Order Confirmation', { exact: true }) to be visible
+
+✅ Direct to Patient order placed successfully

@@ -1,0 +1,142 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - heading "Add New Site" [level=1] [ref=e14]
+      - generic [ref=e15]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: Site Group *
+          - generic [ref=e19]:
+            - combobox "Site Group * Direct to Patient" [disabled] [ref=e20]: Direct to Patient
+            - textbox [disabled]: "69"
+            - img
+            - group:
+              - generic: Site Group * *
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - text: Site Number
+            - generic [ref=e24]: "*"
+          - generic [ref=e25]:
+            - spinbutton "Site Number" [ref=e26]: "073393"
+            - group:
+              - generic: Site Number *
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - text: Site Name
+            - generic [ref=e30]: "*"
+          - generic [ref=e31]:
+            - textbox "Site Name" [ref=e32]: Bartoletti Group
+            - group:
+              - generic: Site Name *
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - text: Site Address 1
+            - generic [ref=e36]: "*"
+          - generic [ref=e37]:
+            - textbox "Site Address 1" [ref=e38]: 73640 Chapel Close
+            - group:
+              - generic: Site Address 1 *
+        - generic [ref=e40]:
+          - generic [ref=e41]: Site Address 2
+          - generic [ref=e42]:
+            - textbox "Site Address 2" [ref=e43]: Suite 625
+            - group:
+              - generic: Site Address 2
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - text: City
+            - generic [ref=e47]: "*"
+          - generic [ref=e48]:
+            - textbox "City" [ref=e49]: Bristol
+            - group:
+              - generic: City *
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - text: Site State
+            - generic [ref=e53]: "*"
+          - generic [ref=e54]:
+            - textbox "Site State" [ref=e55]: Arkansas
+            - group:
+              - generic: Site State *
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - text: Site Zipcode
+            - generic [ref=e59]: "*"
+          - generic [ref=e60]:
+            - textbox "Site Zipcode" [ref=e61]: "85858"
+            - group:
+              - generic: Site Zipcode *
+        - generic [ref=e63]:
+          - checkbox "Different Billing Address" [checked] [ref=e64]
+          - heading "Different Billing Address" [level=3] [ref=e65]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - text: Site Address 1
+            - generic [ref=e69]: "*"
+          - generic [ref=e70]:
+            - textbox "Site Address 1" [ref=e71]: 17247 O'Conner Circles
+            - group:
+              - generic: Site Address 1 *
+        - generic [ref=e73]:
+          - generic [ref=e74]: Site Address 2
+          - generic [ref=e75]:
+            - textbox "Site Address 2" [active] [ref=e76]: Apt. 111
+            - group:
+              - generic: Site Address 2
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - text: City
+            - generic [ref=e80]: "*"
+          - generic [ref=e81]:
+            - textbox "City" [ref=e82]: Naderboro
+            - group:
+              - generic: City *
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - text: Site State
+            - generic [ref=e86]: "*"
+          - generic [ref=e87]:
+            - textbox "Site State" [ref=e88]: New Hampshire
+            - group:
+              - generic: Site State *
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - text: Site Zipcode
+            - generic [ref=e92]: "*"
+          - generic [ref=e93]:
+            - textbox "Site Zipcode" [ref=e94]: "71928"
+            - group:
+              - generic: Site Zipcode *
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - text: Country
+            - generic [ref=e98]: "*"
+          - generic [ref=e99]:
+            - textbox "Country" [ref=e100]: Estonia
+            - group:
+              - generic: Country *
+        - generic [ref=e102]:
+          - link "Cancel" [ref=e103] [cursor=pointer]:
+            - /url: /sites
+          - button "Save" [ref=e104] [cursor=pointer]: Save
+  - iframe [ref=e107]:
+    - generic [ref=f5e2]:
+      - generic [ref=f5e5]:
+        - link "Privacy" [ref=f5e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f5e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f5e8]:
+        - generic [ref=f5e9]:
+          - text: protected by
+          - strong [ref=f5e10]: reCAPTCHA
+        - generic [ref=f5e11]: "-"
+```

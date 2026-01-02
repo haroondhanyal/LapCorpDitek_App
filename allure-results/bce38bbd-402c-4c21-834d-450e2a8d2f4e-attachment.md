@@ -1,0 +1,135 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: Place New Order
+      - paragraph [ref=e15]: "*Indicates a required field"
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Search and Add Kit
+          - generic [ref=e20]:
+            - paragraph [ref=e21]: Upload CSV
+            - button "Upload" [ref=e23] [cursor=pointer]
+            - generic [ref=e24]:
+              - paragraph [ref=e25]: Material
+              - paragraph [ref=e26]: Qty
+            - generic [ref=e27]:
+              - generic [ref=e28]:
+                - paragraph [ref=e29]: Order Notes
+                - paragraph [ref=e30]: (Optional)
+              - textbox "Enter Notes" [ref=e31]
+          - generic [ref=e34]:
+            - generic [ref=e35] [cursor=pointer]:
+              - checkbox [ref=e36]
+              - img [ref=e37]
+            - paragraph [ref=e39]: Custom Requistion
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Client Details
+          - generic [ref=e42]:
+            - generic [ref=e44]:
+              - generic [ref=e46]:
+                - generic [ref=e47]: Plan Name*
+                - generic [ref=e48]:
+                  - textbox "Plan Name*" [ref=e49]: Plan - Hand, Conroy and Krajcik
+                  - group:
+                    - generic: Plan Name*
+              - generic [ref=e51]:
+                - generic [ref=e52]: Plan Address*
+                - generic [ref=e53]:
+                  - textbox "Plan Address*" [ref=e54]: 70345 Keenan Row
+                  - group:
+                    - generic: Plan Address*
+              - generic [ref=e56]:
+                - generic [ref=e57]: City*
+                - generic [ref=e58]:
+                  - textbox "City*" [ref=e59]: West Ferne
+                  - group:
+                    - generic: City*
+              - generic [ref=e61]:
+                - generic [ref=e62]: State*
+                - generic [ref=e63]:
+                  - textbox "State*" [ref=e64]: TN
+                  - group:
+                    - generic: State*
+              - generic [ref=e66]:
+                - generic [ref=e67]: Zip Code*
+                - generic [ref=e68]:
+                  - textbox "Zip Code*" [ref=e69]: "86392"
+                  - group:
+                    - generic: Zip Code*
+            - generic [ref=e70]:
+              - heading "ATTN" [level=6] [ref=e71]
+              - generic [ref=e72]:
+                - generic [ref=e74]:
+                  - generic [ref=e75]: Contact's name to receive order
+                  - generic [ref=e76]:
+                    - textbox "Contact's name to receive order" [ref=e77]: Troy Hermiston
+                    - group:
+                      - generic: Contact's name to receive order
+                - generic [ref=e79]:
+                  - generic [ref=e80]: Contact's Phone
+                  - generic [ref=e81]:
+                    - textbox "Contact's Phone" [ref=e82]: 789-578-0563
+                    - group:
+                      - generic: Contact's Phone
+                - textbox "Contact's Address" [ref=e84]: 3656 Elenor Run
+                - textbox "Special Instructions (Optional)" [active] [ref=e86]: Cerno surculus velit viriliter esse suppellex.
+            - generic [ref=e87]:
+              - heading "Order Details" [level=6] [ref=e88]
+              - generic [ref=e89]:
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Mail Date
+                  - generic [ref=e93]:
+                    - textbox "Mail Date" [ref=e94]
+                    - group:
+                      - generic: Mail Date
+                - generic [ref=e96]:
+                  - generic: Lab Ticket
+                  - generic [ref=e97]:
+                    - textbox "Lab Ticket" [ref=e98]
+                    - group:
+                      - generic: Lab Ticket
+                - generic [ref=e100]:
+                  - generic: Kit Name
+                  - generic [ref=e101]:
+                    - textbox "Kit Name" [ref=e102]
+                    - group:
+                      - generic: Kit Name
+                - generic [ref=e104]:
+                  - generic: Volume
+                  - generic [ref=e105]:
+                    - textbox "Volume" [ref=e106]
+                    - group:
+                      - generic: Volume
+            - generic [ref=e107]:
+              - heading "Return Address" [level=6] [ref=e108]
+              - generic [ref=e110]:
+                - generic: LabCorp Address*
+                - generic [ref=e111]:
+                  - textbox "LabCorp Address*" [ref=e112]
+                  - group:
+                    - generic: LabCorp Address*
+            - button "Place Order" [ref=e114] [cursor=pointer]:
+              - text: Place Order
+              - img [ref=e115]
+  - iframe [ref=e119]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```

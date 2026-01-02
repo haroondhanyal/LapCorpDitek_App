@@ -1,0 +1,6 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Group clicked: directToPatient
+🟢 Continue button clicked
+✅ Group selected successfully: directToPatient
+🟢 Sites page opened successfully

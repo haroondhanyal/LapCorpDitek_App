@@ -1,0 +1,96 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - heading "Add New Site" [level=1] [ref=e14]
+      - generic [ref=e15]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: Site Group *
+          - generic [ref=e19]:
+            - combobox "Site Group * Single Site" [disabled] [ref=e20]: Single Site
+            - textbox [disabled]: "68"
+            - img
+            - group:
+              - generic: Site Group * *
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - text: Site Number
+            - generic [ref=e24]: "*"
+          - generic [ref=e25]:
+            - spinbutton "Site Number" [ref=e26]: "0"
+            - group:
+              - generic: Site Number *
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - text: Site Name
+            - generic [ref=e30]: "*"
+          - generic [ref=e31]:
+            - textbox "Site Name" [ref=e32]: Stracke, Denesik and Veum
+            - group:
+              - generic: Site Name *
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - text: Site Address 1
+            - generic [ref=e36]: "*"
+          - generic [ref=e37]:
+            - textbox "Site Address 1" [ref=e38]: 1611 Ike Rest
+            - group:
+              - generic: Site Address 1 *
+        - generic [ref=e40]:
+          - generic [ref=e41]: Site Address 2
+          - generic [ref=e42]:
+            - textbox "Site Address 2" [ref=e43]: Apt. 378
+            - group:
+              - generic: Site Address 2
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - text: City
+            - generic [ref=e47]: "*"
+          - generic [ref=e48]:
+            - textbox "City" [ref=e49]: Hansenchester
+            - group:
+              - generic: City *
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - text: Site State
+            - generic [ref=e53]: "*"
+          - generic [ref=e54]:
+            - textbox "Site State" [ref=e55]: South Dakota
+            - group:
+              - generic: Site State *
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - text: Site Zipcode
+            - generic [ref=e59]: "*"
+          - generic [ref=e60]:
+            - textbox "Site Zipcode" [active] [ref=e61]: "59349"
+            - group:
+              - generic: Site Zipcode *
+        - generic [ref=e63]:
+          - checkbox "Different Billing Address" [ref=e64]
+          - heading "Different Billing Address" [level=3] [ref=e65]
+        - generic [ref=e67]:
+          - link "Cancel" [ref=e68] [cursor=pointer]:
+            - /url: /sites
+          - button "Save" [ref=e69] [cursor=pointer]
+  - iframe [ref=e72]:
+    - generic [ref=f5e2]:
+      - generic [ref=f5e5]:
+        - link "Privacy" [ref=f5e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f5e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f5e8]:
+        - generic [ref=f5e9]:
+          - text: protected by
+          - strong [ref=f5e10]: reCAPTCHA
+        - generic [ref=f5e11]: "-"
+```

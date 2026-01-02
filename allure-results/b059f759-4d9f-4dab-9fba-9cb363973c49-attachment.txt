@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 835851
+🟢 Site Name entered: Littel, Emard and Schumm
+🟢 Site Address 1 entered: 378 Neal Extensions
+🟢 Site Address 2 entered: Suite 304
+🟢 City entered: New Dexter
+🟢 State entered: Rhode Island
+🟢 Zip Code entered: 02891
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 5474 Trinity Road
+🟢 Billing Address 2 entered: Suite 335
+🟢 Billing City entered: Goldnerboro
+🟢 Billing State entered: Alaska
+🟢 Billing Zip entered: 53127
+🟢 Billing Country entered: Liberia
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

@@ -1,0 +1,142 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - heading "Sites" [level=1] [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e18]:
+            - img [ref=e20]
+            - textbox "Search sites..." [ref=e22]
+            - group
+          - button "Add New Site" [ref=e23] [cursor=pointer]:
+            - img [ref=e25]
+            - text: Add New Site
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - button "Select columns" [ref=e30] [cursor=pointer]:
+            - img [ref=e32]
+            - text: Columns
+          - button "Show filters" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+            - text: Filters
+          - button "Density" [ref=e39] [cursor=pointer]:
+            - img [ref=e41]
+            - text: Density
+          - button "Export" [ref=e43] [cursor=pointer]:
+            - img [ref=e45]
+            - text: Export
+        - grid [ref=e47]:
+          - row "Site Num. Sort Site Name Sort Location Sort" [ref=e48]:
+            - columnheader "Site Num. Sort" [ref=e49] [cursor=pointer]:
+              - generic [ref=e51]: Site Num.
+              - button "Sort" [ref=e52]:
+                - img [ref=e53]
+              - generic [ref=e55]:
+                - img
+            - columnheader "Site Name Sort" [ref=e56] [cursor=pointer]:
+              - generic [ref=e58]: Site Name
+              - button "Sort" [ref=e59]:
+                - img [ref=e60]
+              - generic [ref=e62]:
+                - img
+            - columnheader "Location Sort" [ref=e63] [cursor=pointer]:
+              - generic [ref=e65]: Location
+              - button "Sort" [ref=e66]:
+                - img [ref=e67]
+              - generic [ref=e69]:
+                - img
+          - rowgroup [ref=e70]:
+            - row "1 Test Site Test Address, Austin, TX 12244" [ref=e71]:
+              - gridcell "1" [ref=e72]
+              - gridcell "Test Site" [ref=e73]
+              - gridcell "Test Address, Austin, TX 12244" [ref=e74]
+            - row "2 Test 2 7th Avenue, Los Angeles, California 23244" [ref=e75]:
+              - gridcell "2" [ref=e76]
+              - gridcell "Test 2" [ref=e77]
+              - gridcell "7th Avenue, Los Angeles, California 23244" [ref=e78]
+            - row "3 Cave Test, Houstan, TX 124124" [ref=e79]:
+              - gridcell "3" [ref=e80]
+              - gridcell "Cave" [ref=e81]
+              - gridcell "Test, Houstan, TX 124124" [ref=e82]
+            - row "4 Authburg Authsburg 221, Illinois, TX 12312" [ref=e83]:
+              - gridcell "4" [ref=e84]
+              - gridcell "Authburg" [ref=e85]
+              - gridcell "Authsburg 221, Illinois, TX 12312" [ref=e86]
+            - row "10 Bludhaven Bludhaven, Gotham, Florida 40011" [ref=e87]:
+              - gridcell "10" [ref=e88]
+              - gridcell "Bludhaven" [ref=e89]
+              - gridcell "Bludhaven, Gotham, Florida 40011" [ref=e90]
+            - row "900 testing site street-11, Karachi, Sindh 74600" [ref=e91]:
+              - gridcell "900" [ref=e92]
+              - gridcell "testing site" [ref=e93]
+              - gridcell "street-11, Karachi, Sindh 74600" [ref=e94]
+            - row "901 testing site 20 street-11, Karachi, Sindh 74600" [ref=e95]:
+              - gridcell "901" [ref=e96]
+              - gridcell "testing site 20" [ref=e97]
+              - gridcell "street-11, Karachi, Sindh 74600" [ref=e98]
+            - row "905 testing site 30 street-16, Karachi, Sindh 74600" [ref=e99]:
+              - gridcell "905" [ref=e100]
+              - gridcell "testing site 30" [ref=e101]
+              - gridcell "street-16, Karachi, Sindh 74600" [ref=e102]
+            - row "89 @@@###################################### 9, 90, 80 909999999999999999" [ref=e103]:
+              - gridcell "89" [ref=e104]
+              - gridcell "@@@######################################" [ref=e105]
+              - gridcell "9, 90, 80 909999999999999999" [ref=e106]
+            - row "20 Delta Delta HQ, Delaware, Dallas 23232" [ref=e107]:
+              - gridcell "20" [ref=e108]
+              - gridcell "Delta" [ref=e109]
+              - gridcell "Delta HQ, Delaware, Dallas 23232" [ref=e110]
+            - row "9 Valid Site Valid Site, Texas, V City, TX 09222" [ref=e111]:
+              - gridcell "9" [ref=e112]
+              - gridcell "Valid Site" [ref=e113]
+              - gridcell "Valid Site, Texas, V City, TX 09222" [ref=e114]
+            - row "1 test BL-K.A-80, karachi, Sindh 12345" [ref=e115]:
+              - gridcell "1" [ref=e116]
+              - gridcell "test" [ref=e117]
+              - gridcell "BL-K.A-80, karachi, Sindh 12345" [ref=e118]
+            - row "123 123 jhkjhkkkkkjkjkjk, 000, 9999 123376" [ref=e119]:
+              - gridcell "123" [ref=e120]
+              - gridcell "123" [ref=e121]
+              - gridcell "jhkjhkkkkkjkjkjk, 000, 9999 123376" [ref=e122]
+            - row "800 DEMO2 street-11, KARACHI, SINDH 76000" [ref=e123]:
+              - gridcell "800" [ref=e124]
+              - gridcell "DEMO2" [ref=e125]
+              - gridcell "street-11, KARACHI, SINDH 76000" [ref=e126]
+            - row "121212 Health Confidential Albama stree2 ew jersy , New york, new jersy 4343431" [ref=e127]:
+              - gridcell "121212" [ref=e128]
+              - gridcell "Health Confidential" [ref=e129]
+              - gridcell "Albama stree2 ew jersy , New york, new jersy 4343431" [ref=e130]
+            - row "443510 Littel - Windler 46116 Smitham Crescent, Reillyhaven, Illinois 72118" [ref=e131]:
+              - gridcell "443510" [ref=e132]
+              - gridcell "Littel - Windler" [ref=e133]
+              - gridcell "46116 Smitham Crescent, Reillyhaven, Illinois 72118" [ref=e134]
+            - row "781112 Kiehn Inc 2865 Bartell Track, East Heloisestad, Colorado 01014" [ref=e135]:
+              - gridcell "781112" [ref=e136]
+              - gridcell "Kiehn Inc" [ref=e137]
+              - gridcell "2865 Bartell Track, East Heloisestad, Colorado 01014" [ref=e138]
+            - row "2014 Mante - Walker 4709 Nader Springs, East Maceyview, Louisiana 45342" [ref=e139]:
+              - gridcell "2014" [ref=e140]
+              - gridcell "Mante - Walker" [ref=e141]
+              - gridcell "4709 Nader Springs, East Maceyview, Louisiana 45342" [ref=e142]
+  - iframe [ref=e145]:
+    - generic [ref=f5e2]:
+      - generic [ref=f5e5]:
+        - link "Privacy" [ref=f5e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f5e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f5e8]:
+        - generic [ref=f5e9]:
+          - text: protected by
+          - strong [ref=f5e10]: reCAPTCHA
+        - generic [ref=f5e11]: "-"
+```

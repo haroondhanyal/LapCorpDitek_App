@@ -1,0 +1,117 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e14]:
+      - paragraph [ref=e15]: Orders
+      - heading "All Orders" [level=2] [ref=e16]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - button "Select columns" [ref=e20] [cursor=pointer]:
+            - img [ref=e22]
+            - text: Columns
+          - button "Show filters" [ref=e24] [cursor=pointer]:
+            - generic [ref=e26]:
+              - img [ref=e27]
+              - generic: "0"
+            - text: Filters
+          - button "Density" [ref=e29] [cursor=pointer]:
+            - img [ref=e31]
+            - text: Density
+          - button "Export" [ref=e33] [cursor=pointer]:
+            - img [ref=e35]
+            - text: Export
+        - grid [ref=e37]:
+          - row "Plan Name Sort LabCorp Billing Acct Num. Sort Status Sort Order Num. Sort Order ID Sort Order Date Sort Shipped Date Sort Kit Num. Sort Kit Name Sort" [ref=e38]:
+            - columnheader [ref=e39]:
+              - generic [ref=e40]:
+                - img
+            - columnheader "Plan Name Sort" [ref=e41] [cursor=pointer]:
+              - generic [ref=e43]: Plan Name
+              - button "Sort" [ref=e44]:
+                - img [ref=e45]
+              - generic [ref=e47]:
+                - img
+            - columnheader "LabCorp Billing Acct Num. Sort" [ref=e48] [cursor=pointer]:
+              - generic [ref=e50]: LabCorp Billing Acct Num.
+              - button "Sort" [ref=e51]:
+                - img [ref=e52]
+              - generic [ref=e54]:
+                - img
+            - columnheader "Status Sort" [ref=e55] [cursor=pointer]:
+              - generic [ref=e57]: Status
+              - button "Sort" [ref=e58]:
+                - img [ref=e59]
+              - generic [ref=e61]:
+                - img
+            - columnheader "Order Num. Sort" [ref=e62] [cursor=pointer]:
+              - generic [ref=e64]: Order Num.
+              - button "Sort" [ref=e65]:
+                - img [ref=e66]
+              - generic [ref=e68]:
+                - img
+            - columnheader "Order ID Sort" [ref=e69] [cursor=pointer]:
+              - generic [ref=e71]: Order ID
+              - button "Sort" [ref=e72]:
+                - img [ref=e73]
+              - generic [ref=e75]:
+                - img
+            - columnheader "Order Date Sort" [ref=e76] [cursor=pointer]:
+              - generic [ref=e78]: Order Date
+              - button "Sort" [ref=e80]:
+                - img [ref=e81]
+              - generic [ref=e83]:
+                - img
+            - columnheader "Shipped Date Sort" [ref=e84] [cursor=pointer]:
+              - generic [ref=e86]: Shipped Date
+              - button "Sort" [ref=e87]:
+                - img [ref=e88]
+              - generic [ref=e90]:
+                - img
+            - columnheader "Kit Num. Sort" [ref=e91] [cursor=pointer]:
+              - generic [ref=e93]: Kit Num.
+              - button "Sort" [ref=e94]:
+                - img [ref=e95]
+              - generic [ref=e97]:
+                - img
+            - columnheader "Kit Name Sort" [ref=e98] [cursor=pointer]:
+              - generic [ref=e100]: Kit Name
+              - button "Sort" [ref=e101]:
+                - img [ref=e102]
+              - generic [ref=e104]:
+                - img
+          - progressbar [ref=e107]:
+            - img [ref=e108]
+          - rowgroup
+        - generic [ref=e115]:
+          - paragraph [ref=e116]: "Rows per page:"
+          - generic [ref=e117]:
+            - 'combobox "Rows per page: 10" [ref=e118] [cursor=pointer]': "10"
+            - textbox: "10"
+            - img
+          - paragraph [ref=e119]: 0–0 of 0
+          - generic [ref=e120]:
+            - button "Go to previous page" [disabled]:
+              - img
+            - button "Go to next page" [disabled]:
+              - img
+  - iframe [ref=e123]:
+    - generic [ref=f5e2]:
+      - generic [ref=f5e5]:
+        - link "Privacy" [ref=f5e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f5e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f5e8]:
+        - generic [ref=f5e9]:
+          - text: protected by
+          - strong [ref=f5e10]: reCAPTCHA
+        - generic [ref=f5e11]: "-"
+```

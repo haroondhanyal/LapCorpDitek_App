@@ -1,0 +1,37 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Group clicked: directToPatient
+🟢 Continue button clicked
+✅ Group selected successfully: directToPatient
+✅ Login + Group selection done
+🧪 Faker Data: {
+  planName: 'King, Hegmann and Batz',
+  planAddress: '121 Weber Light',
+  city: 'Bernierchester',
+  state: 'AK',
+  zipCode: '18101',
+  contactName: 'Elbert Considine DVM',
+  contactPhone: '01909185379',
+  contactAddress: '199 Elliot Hollow',
+  specialInstructions: 'Please handle this order with care.\n' +
+    'Ensure delivery during office hours.\n' +
+    'Call the contact person before delivery.',
+  notes: 'Derideo verus ulciscor pecus congregatio. Subnecto crapula caput abduco tristis aveho desidero. Temporibus claudeo carpo iste statua beneficium conturbo supplanto.',
+  mailDate: '2025-12-26',
+  labTicket: 'WFNW6CXPZ0'
+}
+🟢 CSV uploaded
+🟢 Notes entered
+🟢 Custom Requisition checkbox enabled
+🟢 Patient Details checkbox enabled
+🟢 Patient details viewed
+🟢 Patient details  closed
+🟢 PDF uploaded
+🟢 Place Order clicked
+⏳ Waiting for Order Confirmation modal...
+⚠ Modal did NOT appear or page closed
+Error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for getByText('Order Confirmation', { exact: true }) to be visible
+
+✅ Direct to Patient order placed successfully

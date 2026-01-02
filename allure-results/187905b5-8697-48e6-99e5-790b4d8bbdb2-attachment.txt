@@ -1,0 +1,27 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Name entered: Littel Group
+🟢 Site Address 1 entered: 847 Bernier Island
+🟢 Site Address 2 entered: Suite 549
+🟢 City entered: West Deonbury
+🟢 State entered: Kansas
+🟢 Zip Code entered: 62385
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 753 Cecelia Points
+🟢 Billing Address 2 entered: Apt. 246
+🟢 Billing City entered: Palmaworth
+🟢 Billing State entered: New York
+🟢 Billing Zip entered: 93504
+🟢 Billing Country entered: Russian Federation
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

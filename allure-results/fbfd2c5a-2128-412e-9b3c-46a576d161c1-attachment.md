@@ -1,0 +1,151 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: Place New Order
+      - paragraph [ref=e15]: "*Indicates a required field"
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Search and Add Kit
+          - generic [ref=e20]:
+            - paragraph [ref=e21]: Upload CSV
+            - generic [ref=e23]:
+              - paragraph [ref=e24]: EMP-1001-Single-Site 2.csv
+              - generic [ref=e25]:
+                - generic [ref=e26] [cursor=pointer]: View File
+                - generic [ref=e27] [cursor=pointer]: Remove File
+              - button "Upload" [ref=e28] [cursor=pointer]
+            - generic [ref=e29]:
+              - paragraph [ref=e30]: Material
+              - paragraph [ref=e31]: Qty
+            - generic [ref=e32]:
+              - generic [ref=e33]:
+                - img "Single Site - ADX Kit" [ref=e34]
+                - generic [ref=e35]:
+                  - paragraph [ref=e36]: Single Site - ADX Kit
+                  - paragraph [ref=e37]: SKU Num.
+              - generic [ref=e40]:
+                - spinbutton [ref=e41]: "30"
+                - group
+            - generic [ref=e42]:
+              - generic [ref=e43]:
+                - paragraph [ref=e44]: Order Notes
+                - paragraph [ref=e45]: (Optional)
+              - textbox "Enter Notes" [ref=e46]
+          - generic [ref=e49]:
+            - generic [ref=e50] [cursor=pointer]:
+              - checkbox [ref=e51]
+              - img [ref=e52]
+            - paragraph [ref=e54]: Custom Requistion
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Client Details
+          - generic [ref=e57]:
+            - generic [ref=e59]:
+              - generic [ref=e61]:
+                - generic [ref=e62]: Plan Name*
+                - generic [ref=e63]:
+                  - textbox "Plan Name*" [ref=e64]: Plan - Quigley, Mosciski and Klocko
+                  - group:
+                    - generic: Plan Name*
+                - paragraph [ref=e65]: Plan Name must be 3-50 characters, no special characters except - and '
+              - generic [ref=e67]:
+                - generic [ref=e68]: Plan Address*
+                - generic [ref=e69]:
+                  - textbox "Plan Address*" [ref=e70]: 74859 Oak Street
+                  - group:
+                    - generic: Plan Address*
+              - generic [ref=e72]:
+                - generic [ref=e73]: City*
+                - generic [ref=e74]:
+                  - textbox "City*" [ref=e75]: East Carolannefurt
+                  - group:
+                    - generic: City*
+              - generic [ref=e77]:
+                - generic [ref=e78]: State*
+                - generic [ref=e79]:
+                  - textbox "State*" [ref=e80]: MT
+                  - group:
+                    - generic: State*
+              - generic [ref=e82]:
+                - generic [ref=e83]: Zip Code*
+                - generic [ref=e84]:
+                  - textbox "Zip Code*" [ref=e85]: "47850"
+                  - group:
+                    - generic: Zip Code*
+            - generic [ref=e86]:
+              - heading "ATTN" [level=6] [ref=e87]
+              - generic [ref=e88]:
+                - generic [ref=e90]:
+                  - generic [ref=e91]: Contact's name to receive order
+                  - generic [ref=e92]:
+                    - textbox "Contact's name to receive order" [ref=e93]: Homer Price
+                    - group:
+                      - generic: Contact's name to receive order
+                - generic [ref=e95]:
+                  - generic [ref=e96]: Contact's Phone
+                  - generic [ref=e97]:
+                    - textbox "Contact's Phone" [ref=e98]: (426) 358-4796
+                    - group:
+                      - generic: Contact's Phone
+                  - paragraph [ref=e99]: Phone number must be 10-15 digits
+                - textbox "Contact's Address" [ref=e101]: 7735 Lehner Stravenue
+                - textbox "Special Instructions (Optional)" [ref=e103]: Ustulo arbitro stillicidium asporto clarus argentum.
+            - generic [ref=e104]:
+              - heading "Order Details" [level=6] [ref=e105]
+              - generic [ref=e106]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]: Mail Date
+                  - generic [ref=e110]:
+                    - textbox "Mail Date" [ref=e111]
+                    - group:
+                      - generic: Mail Date
+                - generic [ref=e113]:
+                  - generic [ref=e114]: Lab Ticket
+                  - generic [ref=e115]:
+                    - textbox "Lab Ticket" [ref=e116]: LT-392032
+                    - group:
+                      - generic: Lab Ticket
+                - generic [ref=e118]:
+                  - generic [ref=e119]: Kit Name
+                  - generic [ref=e120]:
+                    - textbox "Kit Name" [ref=e121]: Single Site - ADX Kit
+                    - group:
+                      - generic: Kit Name
+                - generic [ref=e123]:
+                  - generic [ref=e124]: Volume
+                  - generic [ref=e125]:
+                    - textbox "Volume" [ref=e126]: "30"
+                    - group:
+                      - generic: Volume
+            - generic [ref=e127]:
+              - heading "Return Address" [level=6] [ref=e128]
+              - generic [ref=e130]:
+                - generic [ref=e131]: LabCorp Address*
+                - generic [ref=e132]:
+                  - textbox "LabCorp Address*" [ref=e133]: "Labcorp, ATTN: Direct Testing Lab, 1447 York CT, Burlington NC 27215-3361"
+                  - group:
+                    - generic: LabCorp Address*
+            - button "Place Order" [active] [ref=e135] [cursor=pointer]:
+              - text: Place Order
+              - img [ref=e136]
+  - iframe [ref=e140]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```
