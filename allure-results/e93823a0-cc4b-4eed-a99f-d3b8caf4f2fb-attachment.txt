@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 138076
+🟢 Site Name entered: Dibbert  Hane
+🟢 Site Address 1 entered: 189 Cherry Tree Close
+🟢 Site Address 2 entered: Suite 132
+🟢 City entered: Hagenesboro
+🟢 State entered: Texas
+🟢 Zip Code entered: 36463
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 7958 St George's Road
+🟢 Billing Address 2 entered: Apt. 233
+🟢 Billing City entered: Fort Craig
+🟢 Billing State entered: Virginia
+🟢 Billing Zip entered: 17475
+🟢 Billing Country entered: Western Sahara
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

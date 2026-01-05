@@ -1,0 +1,12 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Group clicked: directToPatient
+🟢 Continue button clicked
+✅ Group selected successfully: directToPatient
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 006709
+🟢 Zip code entered: undefined
+🟢 Billing Zip entered: undefined
+🏁 New site created successfully
+✅ E2E Site creation test completed

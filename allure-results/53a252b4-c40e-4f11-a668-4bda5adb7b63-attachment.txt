@@ -1,0 +1,75 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Client details filled
+🟢 Contact details filled
+🟢 CSV uploaded
+🟢 Mail date & lab ticket entered
+Place New Order
+
+*Indicates a required field
+
+Search and Add Kit
+
+Upload CSV
+
+EMP-1001-Single-Site 2.csv
+
+View File
+Remove File
+Upload
+
+Material
+
+Qty
+
+Single Site - ADX Kit
+
+SKU Num.
+
+​
+
+Order Notes
+
+(Optional)
+
+Custom Requistion
+
+Client Details
+
+Plan Name*
+Plan Name*
+Plan Address*
+Plan Address*
+City*
+City*
+State*
+State*
+Zip Code*
+Zip Code*
+ATTN
+Contact's name to receive order
+Contact's name to receive order
+Contact's Phone
+Contact's Phone
+
+Phone number must be 10-15 digits
+
+Order Details
+Mail Date
+Mail Date
+Lab Ticket
+Lab Ticket
+Kit Name
+Kit Name
+Volume
+Volume
+Return Address
+LabCorp Address*
+LabCorp Address*
+Place Order
+🎉 Single Site E2E flow completed successfully

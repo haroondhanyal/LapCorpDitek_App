@@ -1,0 +1,9 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: oncology
+🟢 Continue button clicked
+✅ Group selected successfully: oncology
+🟢 Oncology group selected
+ℹ️ Oncology button not present, skipping…
+🎉 Bulk Oncology Order placed successfully

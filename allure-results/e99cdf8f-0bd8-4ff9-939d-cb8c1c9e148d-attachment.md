@@ -1,0 +1,282 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - generic [ref=e10]:
+            - generic [ref=e11]: Group
+            - generic [ref=e13]:
+              - combobox [ref=e14] [cursor=pointer]: Oncology
+              - textbox: "76"
+              - img
+              - group
+        - generic [ref=e17]:
+          - img [ref=e19]
+          - textbox [ref=e21]:
+            - /placeholder: Search SKU, product name, order no., customer no.
+        - generic [ref=e22]:
+          - button [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+            - generic [ref=e25]: (7)
+          - button [ref=e26] [cursor=pointer]: Checkout
+          - button [ref=e28] [cursor=pointer]:
+            - img [ref=e29]
+            - generic [ref=e30]: Haroon
+            - img [ref=e31]
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - img [ref=e37]
+        - button [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+      - generic [ref=e41]:
+        - generic [ref=e43]:
+          - img [ref=e45]
+          - textbox [ref=e47]:
+            - /placeholder: Search SKU, product name...
+        - generic [ref=e48]:
+          - generic [ref=e49]: Group
+          - generic [ref=e50]:
+            - combobox [ref=e51] [cursor=pointer]: Oncology
+            - textbox: "76"
+            - img
+            - group
+        - generic [ref=e52]:
+          - generic [ref=e53]: Menu
+          - navigation [ref=e54]:
+            - generic [ref=e55]:
+              - img [ref=e56]
+              - generic [ref=e57]: Products
+            - generic [ref=e58]:
+              - img [ref=e59]
+              - generic [ref=e60]: Orders
+            - generic [ref=e61]:
+              - img [ref=e62]
+              - generic [ref=e63]: Sites
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - img [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]: Haroon
+            - generic [ref=e69]: rharoon@medzah.com
+        - button [ref=e70] [cursor=pointer]: Checkout
+        - button [ref=e71] [cursor=pointer]: Log out
+    - generic [ref=e72]:
+      - complementary [ref=e73]:
+        - button [ref=e75] [cursor=pointer]:
+          - img [ref=e76]
+        - navigation [ref=e77]:
+          - link [ref=e78] [cursor=pointer]:
+            - /url: /products
+            - img [ref=e80]
+            - generic [ref=e81]: Products
+          - link [ref=e82] [cursor=pointer]:
+            - /url: /orders
+            - img [ref=e84]
+            - generic [ref=e85]: Orders
+          - link [ref=e86] [cursor=pointer]:
+            - /url: /sites
+            - img [ref=e88]
+            - generic [ref=e89]: Sites
+      - main [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - heading [level=4] [ref=e94]: Quick Order
+            - generic [ref=e95]:
+              - button [ref=e96] [cursor=pointer]:
+                - img [ref=e98]
+                - text: Back
+              - generic [ref=e101]:
+                - combobox [ref=e102] [cursor=pointer]: Name A-Z
+                - textbox: name
+                - img
+                - group
+              - generic [ref=e104]:
+                - textbox [ref=e105]:
+                  - /placeholder: Search Products
+                - group
+              - button [ref=e106] [cursor=pointer]: Add to Cart
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - paragraph [ref=e111]: Biobank Kit
+              - paragraph [ref=e113]: "146045"
+              - paragraph [ref=e115]: N/A
+              - paragraph [ref=e117]: Case
+              - generic [ref=e118]:
+                - paragraph [ref=e119]: Qty
+                - generic [ref=e121]:
+                  - spinbutton [ref=e122]: "0"
+                  - group
+                - paragraph [ref=e123]: each
+            - generic [ref=e124]:
+              - paragraph [ref=e126]: Hematology/Oncology kit
+              - paragraph [ref=e128]: "49721"
+              - paragraph [ref=e130]: N/A
+              - paragraph [ref=e132]: Case
+              - generic [ref=e133]:
+                - paragraph [ref=e134]: Qty
+                - generic [ref=e136]:
+                  - spinbutton [ref=e137]: "0"
+                  - group
+                - paragraph [ref=e138]: each
+            - generic [ref=e139]:
+              - paragraph [ref=e141]: Hematopathology Kit
+              - paragraph [ref=e143]: "24687"
+              - paragraph [ref=e145]: N/A
+              - paragraph [ref=e147]: Case
+              - generic [ref=e148]:
+                - paragraph [ref=e149]: Qty
+                - generic [ref=e151]:
+                  - spinbutton [ref=e152]: "0"
+                  - group
+                - paragraph [ref=e153]: each
+            - generic [ref=e154]:
+              - paragraph [ref=e156]: IHC Consults Kit
+              - paragraph [ref=e158]: "24686"
+              - paragraph [ref=e160]: N/A
+              - paragraph [ref=e162]: Case
+              - generic [ref=e163]:
+                - paragraph [ref=e164]: Qty
+                - generic [ref=e166]:
+                  - spinbutton [ref=e167]: "0"
+                  - group
+                - paragraph [ref=e168]: each
+            - generic [ref=e169]:
+              - paragraph [ref=e171]: Oncology Hereditary Cancer Kit
+              - paragraph [ref=e173]: "112102"
+              - paragraph [ref=e175]: N/A
+              - paragraph [ref=e177]: Case
+              - generic [ref=e178]:
+                - paragraph [ref=e179]: Qty
+                - generic [ref=e181]:
+                  - spinbutton [ref=e182]: "0"
+                  - group
+                - paragraph [ref=e183]: each
+            - generic [ref=e184]:
+              - paragraph [ref=e186]: Oncology liquid Biopsy
+              - paragraph [ref=e188]: "137408"
+              - paragraph [ref=e190]: N/A
+              - paragraph [ref=e192]: Case
+              - generic [ref=e193]:
+                - paragraph [ref=e194]: Qty
+                - generic [ref=e196]:
+                  - spinbutton [ref=e197]: "0"
+                  - group
+                - paragraph [ref=e198]: each
+            - generic [ref=e199]:
+              - paragraph [ref=e201]: Oncology Requisition form 679
+              - paragraph [ref=e203]: "0679"
+              - paragraph [ref=e205]: N/A
+              - paragraph [ref=e207]: Case
+              - generic [ref=e208]:
+                - paragraph [ref=e209]: Qty
+                - generic [ref=e211]:
+                  - spinbutton [ref=e212]: "0"
+                  - group
+                - paragraph [ref=e213]: each
+            - generic [ref=e214]:
+              - paragraph [ref=e216]: Oncology Requisition form 711
+              - paragraph [ref=e218]: "0711"
+              - paragraph [ref=e220]: N/A
+              - paragraph [ref=e222]: Case
+              - generic [ref=e223]:
+                - paragraph [ref=e224]: Qty
+                - generic [ref=e226]:
+                  - spinbutton [ref=e227]: "0"
+                  - group
+                - paragraph [ref=e228]: each
+            - generic [ref=e229]:
+              - paragraph [ref=e231]: Oncology Requisition Form 756
+              - paragraph [ref=e233]: "0756"
+              - paragraph [ref=e235]: N/A
+              - paragraph [ref=e237]: Case
+              - generic [ref=e238]:
+                - paragraph [ref=e239]: Qty
+                - generic [ref=e241]:
+                  - spinbutton [ref=e242]: "0"
+                  - group
+                - paragraph [ref=e243]: each
+            - generic [ref=e244]:
+              - paragraph [ref=e246]: Oncology Requisition form 793
+              - paragraph [ref=e248]: "0793"
+              - paragraph [ref=e250]: N/A
+              - paragraph [ref=e252]: Case
+              - generic [ref=e253]:
+                - paragraph [ref=e254]: Qty
+                - generic [ref=e256]:
+                  - spinbutton [ref=e257]: "0"
+                  - group
+                - paragraph [ref=e258]: each
+            - generic [ref=e259]:
+              - paragraph [ref=e261]: Plasma Detect MRD Kit-BLT EEP EA=1KT
+              - paragraph [ref=e263]: "145105"
+              - paragraph [ref=e265]: N/A
+              - paragraph [ref=e267]: Case
+              - generic [ref=e268]:
+                - paragraph [ref=e269]: Qty
+                - generic [ref=e271]:
+                  - spinbutton [ref=e272]: "0"
+                  - group
+                - paragraph [ref=e273]: each
+            - generic [ref=e274]:
+              - paragraph [ref=e276]: Return Shipping Label to durham NC (Onc)
+              - paragraph [ref=e278]: "432911018"
+              - paragraph [ref=e280]: N/A
+              - paragraph [ref=e282]: Case
+              - generic [ref=e283]:
+                - paragraph [ref=e284]: Qty
+                - generic [ref=e286]:
+                  - spinbutton [ref=e287]: "0"
+                  - group
+                - paragraph [ref=e288]: each
+            - generic [ref=e289]:
+              - paragraph [ref=e291]: Return Shipping Label to Shelton CT (Onc)
+              - paragraph [ref=e293]: "532911018"
+              - paragraph [ref=e295]: N/A
+              - paragraph [ref=e297]: Case
+              - generic [ref=e298]:
+                - paragraph [ref=e299]: Qty
+                - generic [ref=e301]:
+                  - spinbutton [ref=e302]: "0"
+                  - group
+                - paragraph [ref=e303]: each
+  - dialog [active] [ref=e305]:
+    - generic [ref=e306]:
+      - generic [ref=e307]:
+        - heading "Cart (7)" [level=6] [ref=e308]
+        - button [ref=e309] [cursor=pointer]:
+          - img [ref=e310]
+      - generic [ref=e312]:
+        - generic [ref=e313]:
+          - generic [ref=e314]: Product
+          - generic [ref=e315]: Qty
+        - generic [ref=e317]:
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - img "Oncology Requisition form 793" [ref=e321]
+              - generic [ref=e322]:
+                - heading "Oncology Requisition form 793" [level=6] [ref=e323]
+                - generic [ref=e324]: "SKU: 0793"
+            - generic [ref=e327]:
+              - spinbutton [ref=e328]: "6"
+              - group
+            - button "Remove" [ref=e330] [cursor=pointer]:
+              - img "Remove" [ref=e331]
+          - generic [ref=e332]:
+            - generic [ref=e333]:
+              - img "Return Shipping Label to durham NC (Onc)" [ref=e335]
+              - generic [ref=e336]:
+                - heading "Return Shipping Label to durham NC (Onc)" [level=6] [ref=e337]
+                - generic [ref=e338]: "SKU: 432911018"
+            - generic [ref=e341]:
+              - spinbutton [ref=e342]: "1"
+              - group
+            - button "Remove" [ref=e344] [cursor=pointer]:
+              - img "Remove" [ref=e345]
+        - button "Go to Checkout Checkout" [ref=e347] [cursor=pointer]:
+          - text: Go to Checkout
+          - img "Checkout" [ref=e349]
+```

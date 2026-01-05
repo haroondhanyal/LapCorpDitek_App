@@ -1,0 +1,19 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: oncology
+🟢 Continue button clicked
+✅ Group selected successfully: oncology
+🟢 Oncology group selected
+🧩 Faker data generated
+ℹ️ Oncology module button NOT visible — skipping click
+🟢 Create Bulk Orders clicked
+🟢 Add To Cart clicked
+🟢 Cart opened
+🟢 Go To Checkout clicked
+🟢 Customer PO entered: PO-519822
+🟢 Expedited Order enabled
+🟢 Shipping country selected
+🟢 Shipping method selected
+🟢 FedEx Overnight selected
+🟢 Contact information filled

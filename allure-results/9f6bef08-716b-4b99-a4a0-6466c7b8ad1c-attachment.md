@@ -1,0 +1,144 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: Place New Order
+      - paragraph [ref=e15]: "*Indicates a required field"
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Search and Add Kit
+          - generic [ref=e20]:
+            - paragraph [ref=e21]: Upload CSV
+            - generic [ref=e23]:
+              - paragraph [ref=e24]: EMP-1001-Single-Site 2.csv
+              - generic [ref=e25]:
+                - generic [ref=e26] [cursor=pointer]: View File
+                - generic [ref=e27] [cursor=pointer]: Remove File
+              - button "Upload" [ref=e28] [cursor=pointer]
+            - generic [ref=e29]:
+              - paragraph [ref=e30]: Material
+              - paragraph [ref=e31]: Qty
+            - generic [ref=e32]:
+              - generic [ref=e33]:
+                - paragraph [ref=e34]: Order Notes
+                - paragraph [ref=e35]: (Optional)
+              - textbox "Enter Notes" [ref=e36]
+          - generic [ref=e39]:
+            - generic [ref=e40] [cursor=pointer]:
+              - checkbox [ref=e41]
+              - img [ref=e42]
+            - paragraph [ref=e44]: Custom Requistion
+        - generic [ref=e45]:
+          - paragraph [ref=e46]: Client Details
+          - generic [ref=e47]:
+            - generic [ref=e49]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: Plan Name*
+                - generic [ref=e53]:
+                  - textbox "Plan Name*" [ref=e54]: Plan - Kassulke, Larson and Nienow
+                  - group:
+                    - generic: Plan Name*
+              - generic [ref=e56]:
+                - generic [ref=e57]: Plan Address*
+                - generic [ref=e58]:
+                  - textbox "Plan Address*" [ref=e59]: 393 MacGyver Forest
+                  - group:
+                    - generic: Plan Address*
+              - generic [ref=e61]:
+                - generic [ref=e62]: City*
+                - generic [ref=e63]:
+                  - textbox "City*" [ref=e64]: Emieboro
+                  - group:
+                    - generic: City*
+              - generic [ref=e66]:
+                - generic [ref=e67]: State*
+                - generic [ref=e68]:
+                  - textbox "State*" [ref=e69]: MN
+                  - group:
+                    - generic: State*
+              - generic [ref=e71]:
+                - generic [ref=e72]: Zip Code*
+                - generic [ref=e73]:
+                  - textbox "Zip Code*" [ref=e74]: "09328"
+                  - group:
+                    - generic: Zip Code*
+            - generic [ref=e75]:
+              - heading "ATTN" [level=6] [ref=e76]
+              - generic [ref=e77]:
+                - generic [ref=e79]:
+                  - generic [ref=e80]: Contact's name to receive order
+                  - generic [ref=e81]:
+                    - textbox "Contact's name to receive order" [ref=e82]: Sabrina Christiansen
+                    - group:
+                      - generic: Contact's name to receive order
+                - generic [ref=e84]:
+                  - generic [ref=e85]: Contact's Phone
+                  - generic [ref=e86]:
+                    - textbox "Contact's Phone" [ref=e87]: 1-287-650-5104
+                    - group:
+                      - generic: Contact's Phone
+                - textbox "Contact's Address" [ref=e89]: 1564 Wade Pines
+                - textbox "Special Instructions (Optional)" [ref=e91]: Theatrum admoneo cubitum asper toties voluptatem.
+            - generic [ref=e92]:
+              - heading "Order Details" [level=6] [ref=e93]
+              - generic [ref=e94]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]: Mail Date
+                  - generic [ref=e98]:
+                    - textbox "Mail Date" [ref=e99]
+                    - group:
+                      - generic: Mail Date
+                - generic [ref=e101]:
+                  - generic: Lab Ticket
+                  - generic [ref=e102]:
+                    - textbox "Lab Ticket" [ref=e103]
+                    - group:
+                      - generic: Lab Ticket
+                - generic [ref=e105]:
+                  - generic: Kit Name
+                  - generic [ref=e106]:
+                    - textbox "Kit Name" [ref=e107]
+                    - group:
+                      - generic: Kit Name
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Volume
+                  - generic [ref=e111]:
+                    - textbox "Volume" [ref=e112]: "30"
+                    - group:
+                      - generic: Volume
+            - generic [ref=e113]:
+              - heading "Return Address" [level=6] [ref=e114]
+              - generic [ref=e116]:
+                - generic [ref=e117]: LabCorp Address*
+                - generic [ref=e118]:
+                  - textbox "LabCorp Address*" [ref=e119]: "Labcorp, ATTN: Direct Testing Lab, 1447 York CT, Burlington NC 27215-3361"
+                  - group:
+                    - generic: LabCorp Address*
+            - button "Place Order" [ref=e121] [cursor=pointer]:
+              - text: Place Order
+              - img [ref=e122]
+      - generic [ref=e125]:
+        - progressbar [ref=e126]:
+          - img [ref=e127]
+        - paragraph [ref=e129]: Loading...
+  - iframe [ref=e132]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```

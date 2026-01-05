@@ -1,0 +1,13 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: oncology
+🟢 Continue button clicked
+✅ Group selected successfully: oncology
+🟢 Oncology group selected
+🧩 Faker data generated
+🟢 Create Bulk Orders clicked
+🟢 Added to cart
+🟢 Cart opened
+🟢 Go To Checkout clicked
+⏳ Filling Patient + Provider Form…

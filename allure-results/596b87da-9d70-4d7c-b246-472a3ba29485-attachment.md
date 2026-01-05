@@ -1,0 +1,241 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "Labcorp" [ref=e9]
+        - generic [ref=e10]:
+          - generic [ref=e11]: Group
+          - generic [ref=e13]:
+            - combobox [ref=e14] [cursor=pointer]: Oncology
+            - textbox: "76"
+            - img
+            - group
+      - generic [ref=e17]:
+        - img [ref=e19]
+        - textbox "Search SKU, product name, order no., customer no." [ref=e21]
+      - generic [ref=e22]:
+        - button "Cart (7)" [ref=e23] [cursor=pointer]:
+          - img "Cart" [ref=e24]
+          - generic [ref=e25]: (7)
+        - button "Checkout" [ref=e26] [cursor=pointer]
+        - button "User Profile Haroon" [ref=e28] [cursor=pointer]:
+          - img "User Profile" [ref=e29]
+          - generic [ref=e30]: Haroon
+          - img [ref=e31]
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - img "Labcorp" [ref=e37]
+      - button "Close menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - img [ref=e45]
+        - textbox "Search SKU, product name..." [ref=e47]
+      - generic [ref=e48]:
+        - generic [ref=e49]: Group
+        - generic [ref=e50]:
+          - combobox [ref=e51] [cursor=pointer]: Oncology
+          - textbox: "76"
+          - img
+          - group
+      - generic [ref=e52]:
+        - generic [ref=e53]: Menu
+        - navigation [ref=e54]:
+          - generic [ref=e55]:
+            - img "Products" [ref=e56]
+            - generic [ref=e57]: Products
+          - generic [ref=e58]:
+            - img "Orders" [ref=e59]
+            - generic [ref=e60]: Orders
+          - generic [ref=e61]:
+            - img "Sites" [ref=e62]
+            - generic [ref=e63]: Sites
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - img "User Profile" [ref=e66]
+        - generic [ref=e67]:
+          - generic [ref=e68]: Haroon
+          - generic [ref=e69]: rharoon@medzah.com
+      - button "Checkout" [ref=e70] [cursor=pointer]
+      - button "Log out" [ref=e71] [cursor=pointer]
+  - generic [ref=e72]:
+    - complementary [ref=e73]:
+      - button "Collapse sidebar" [ref=e75] [cursor=pointer]:
+        - img "toggle" [ref=e76]
+      - navigation [ref=e77]:
+        - link "Products Products" [ref=e78] [cursor=pointer]:
+          - /url: /products
+          - img "Products" [ref=e80]
+          - generic [ref=e81]: Products
+        - link "Orders Orders" [ref=e82] [cursor=pointer]:
+          - /url: /orders
+          - img "Orders" [ref=e84]
+          - generic [ref=e85]: Orders
+        - link "Sites Sites" [ref=e86] [cursor=pointer]:
+          - /url: /sites
+          - img "Sites" [ref=e88]
+          - generic [ref=e89]: Sites
+    - main [ref=e90]:
+      - generic [ref=e91]:
+        - heading "Order's Summary" [level=1] [ref=e93]
+        - generic [ref=e94]:
+          - generic [ref=e96]:
+            - generic [ref=e97]: "15"
+            - generic [ref=e98]: All Orders
+          - generic [ref=e100]:
+            - generic [ref=e101]: "11"
+            - generic [ref=e102]: Open Orders
+          - generic [ref=e104]:
+            - generic [ref=e105]: "2"
+            - generic [ref=e106]: Shipped Orders
+        - generic [ref=e107]:
+          - heading "Products" [level=1] [ref=e108]
+          - button "Create Bulk Orders" [ref=e110] [cursor=pointer]
+        - generic [ref=e111]:
+          - generic [ref=e113]:
+            - img "Hematology/Oncology kit" [ref=e115]
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - generic [ref=e118]: Hematology/Oncology kit
+                - generic [ref=e119]: "#49721"
+              - generic [ref=e120]:
+                - generic [ref=e122]:
+                  - spinbutton [ref=e123]: "1"
+                  - group
+                - button "Add to Cart" [ref=e124] [cursor=pointer]
+          - generic [ref=e126]:
+            - img "Hematopathology Kit" [ref=e128]
+            - generic [ref=e129]:
+              - generic [ref=e130]:
+                - generic [ref=e131]: Hematopathology Kit
+                - generic [ref=e132]: "#24687"
+              - generic [ref=e133]:
+                - generic [ref=e135]:
+                  - spinbutton [ref=e136]: "1"
+                  - group
+                - button "Add to Cart" [ref=e137] [cursor=pointer]
+          - generic [ref=e139]:
+            - img "IHC Consults Kit" [ref=e141]
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - generic [ref=e144]: IHC Consults Kit
+                - generic [ref=e145]: "#24686"
+              - generic [ref=e146]:
+                - generic [ref=e148]:
+                  - spinbutton [ref=e149]: "1"
+                  - group
+                - button "Add to Cart" [ref=e150] [cursor=pointer]
+          - generic [ref=e152]:
+            - img "Oncology liquid Biopsy" [ref=e154]
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - generic [ref=e157]: Oncology liquid Biopsy
+                - generic [ref=e158]: "#137408"
+              - generic [ref=e159]:
+                - generic [ref=e161]:
+                  - spinbutton [ref=e162]: "1"
+                  - group
+                - button "Add to Cart" [ref=e163] [cursor=pointer]
+          - generic [ref=e165]:
+            - img "Return Shipping Label to durham NC (Onc)" [ref=e167]
+            - generic [ref=e168]:
+              - generic [ref=e169]:
+                - generic [ref=e170]: Return Shipping Label to durham NC (Onc)
+                - generic [ref=e171]: "#432911018"
+              - generic [ref=e172]:
+                - generic [ref=e174]:
+                  - spinbutton [ref=e175]: "1"
+                  - group
+                - button "Add to Cart" [ref=e176] [cursor=pointer]
+          - generic [ref=e178]:
+            - img "Return Shipping Label to Shelton CT (Onc)" [ref=e180]
+            - generic [ref=e181]:
+              - generic [ref=e182]:
+                - generic [ref=e183]: Return Shipping Label to Shelton CT (Onc)
+                - generic [ref=e184]: "#532911018"
+              - generic [ref=e185]:
+                - generic [ref=e187]:
+                  - spinbutton [ref=e188]: "1"
+                  - group
+                - button "Add to Cart" [ref=e189] [cursor=pointer]
+          - generic [ref=e191]:
+            - img "Oncology Hereditary Cancer Kit" [ref=e193]
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - generic [ref=e196]: Oncology Hereditary Cancer Kit
+                - generic [ref=e197]: "#112102"
+              - generic [ref=e198]:
+                - generic [ref=e200]:
+                  - spinbutton [ref=e201]: "1"
+                  - group
+                - button "Add to Cart" [ref=e202] [cursor=pointer]
+          - generic [ref=e204]:
+            - img "Plasma Detect MRD Kit-BLT EEP EA=1KT" [ref=e206]
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e209]: Plasma Detect MRD Kit-BLT EEP EA=1KT
+                - generic [ref=e210]: "#145105"
+              - generic [ref=e211]:
+                - generic [ref=e213]:
+                  - spinbutton [ref=e214]: "1"
+                  - group
+                - button "Add to Cart" [ref=e215] [cursor=pointer]
+          - generic [ref=e217]:
+            - img "Oncology Requisition Form 756" [ref=e219]
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e222]: Oncology Requisition Form 756
+                - generic [ref=e223]: "#0756"
+              - generic [ref=e224]:
+                - generic [ref=e226]:
+                  - spinbutton [ref=e227]: "1"
+                  - group
+                - button "Add to Cart" [ref=e228] [cursor=pointer]
+          - generic [ref=e230]:
+            - img "Oncology Requisition form 793" [ref=e232]
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - generic [ref=e235]: Oncology Requisition form 793
+                - generic [ref=e236]: "#0793"
+              - generic [ref=e237]:
+                - generic [ref=e239]:
+                  - spinbutton [ref=e240]: "1"
+                  - group
+                - button "Add to Cart" [ref=e241] [cursor=pointer]
+          - generic [ref=e243]:
+            - img "Oncology Requisition form 711" [ref=e245]
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - generic [ref=e248]: Oncology Requisition form 711
+                - generic [ref=e249]: "#0711"
+              - generic [ref=e250]:
+                - generic [ref=e252]:
+                  - spinbutton [ref=e253]: "1"
+                  - group
+                - button "Add to Cart" [ref=e254] [cursor=pointer]
+          - generic [ref=e256]:
+            - img "Oncology Requisition form 679" [ref=e258]
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - generic [ref=e261]: Oncology Requisition form 679
+                - generic [ref=e262]: "#0679"
+              - generic [ref=e263]:
+                - generic [ref=e265]:
+                  - spinbutton [ref=e266]: "1"
+                  - group
+                - button "Add to Cart" [ref=e267] [cursor=pointer]
+          - generic [ref=e269]:
+            - img "Biobank Kit" [ref=e271]
+            - generic [ref=e272]:
+              - generic [ref=e273]:
+                - generic [ref=e274]: Biobank Kit
+                - generic [ref=e275]: "#146045"
+              - generic [ref=e276]:
+                - generic [ref=e278]:
+                  - spinbutton [ref=e279]: "1"
+                  - group
+                - button "Add to Cart" [ref=e280] [cursor=pointer]
+```

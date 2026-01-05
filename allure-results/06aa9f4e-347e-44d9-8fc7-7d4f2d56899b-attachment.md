@@ -1,0 +1,216 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "Labcorp" [ref=e9]
+        - generic [ref=e10]:
+          - generic [ref=e11]: Group
+          - generic [ref=e13]:
+            - combobox [ref=e14] [cursor=pointer]: Oncology
+            - textbox: "76"
+            - img
+            - group
+      - generic [ref=e17]:
+        - img [ref=e19]
+        - textbox "Search SKU, product name, order no., customer no." [ref=e21]
+      - generic [ref=e22]:
+        - button "Cart (7)" [active] [ref=e23] [cursor=pointer]:
+          - img "Cart" [ref=e24]
+          - generic [ref=e25]: (7)
+        - button "Checkout" [ref=e26] [cursor=pointer]
+        - button "User Profile Haroon" [ref=e28] [cursor=pointer]:
+          - img "User Profile" [ref=e29]
+          - generic [ref=e30]: Haroon
+          - img [ref=e31]
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - img "Labcorp" [ref=e37]
+      - button "Close menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - img [ref=e45]
+        - textbox "Search SKU, product name..." [ref=e47]
+      - generic [ref=e48]:
+        - generic [ref=e49]: Group
+        - generic [ref=e50]:
+          - combobox [ref=e51] [cursor=pointer]: Oncology
+          - textbox: "76"
+          - img
+          - group
+      - generic [ref=e52]:
+        - generic [ref=e53]: Menu
+        - navigation [ref=e54]:
+          - generic [ref=e55]:
+            - img "Products" [ref=e56]
+            - generic [ref=e57]: Products
+          - generic [ref=e58]:
+            - img "Orders" [ref=e59]
+            - generic [ref=e60]: Orders
+          - generic [ref=e61]:
+            - img "Sites" [ref=e62]
+            - generic [ref=e63]: Sites
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - img "User Profile" [ref=e66]
+        - generic [ref=e67]:
+          - generic [ref=e68]: Haroon
+          - generic [ref=e69]: rharoon@medzah.com
+      - button "Checkout" [ref=e70] [cursor=pointer]
+      - button "Log out" [ref=e71] [cursor=pointer]
+  - generic [ref=e72]:
+    - complementary [ref=e73]:
+      - button "Collapse sidebar" [ref=e75] [cursor=pointer]:
+        - img "toggle" [ref=e76]
+      - navigation [ref=e77]:
+        - link "Products Products" [ref=e78] [cursor=pointer]:
+          - /url: /products
+          - img "Products" [ref=e80]
+          - generic [ref=e81]: Products
+        - link "Orders Orders" [ref=e82] [cursor=pointer]:
+          - /url: /orders
+          - img "Orders" [ref=e84]
+          - generic [ref=e85]: Orders
+        - link "Sites Sites" [ref=e86] [cursor=pointer]:
+          - /url: /sites
+          - img "Sites" [ref=e88]
+          - generic [ref=e89]: Sites
+    - main [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]: Cart - Order Details
+        - generic [ref=e93]: "* Indicates a required field"
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97]: Order Information
+              - generic [ref=e98]:
+                - generic [ref=e99]:
+                  - generic [ref=e100]: Name
+                  - generic [ref=e101]: Haroon Raja
+                - generic [ref=e102]:
+                  - generic [ref=e103]: Email
+                  - generic [ref=e104]: rharoon@medzah.com
+                - generic [ref=e105]:
+                  - generic [ref=e106]: Phone
+                  - generic [ref=e107]: "1234567890"
+                - generic [ref=e109]:
+                  - generic [ref=e110]: Customer PO Num.
+                  - textbox "Enter customer PO number" [ref=e111]
+                - generic [ref=e113]:
+                  - generic [ref=e114] [cursor=pointer]:
+                    - checkbox [ref=e115]
+                    - img [ref=e116]
+                  - paragraph [ref=e118]: Expedited Order
+            - generic [ref=e119]:
+              - generic [ref=e120]: Shipping Information
+              - generic [ref=e122]:
+                - generic [ref=e123]: Select Country*
+                - generic [ref=e124]:
+                  - combobox "Select Option..." [ref=e125] [cursor=pointer]
+                  - textbox
+                  - img
+                  - group
+              - generic [ref=e127]:
+                - generic [ref=e128]: Shipping Method*
+                - generic [ref=e129]:
+                  - combobox "Select Option..." [ref=e130] [cursor=pointer]
+                  - textbox
+                  - img
+                  - group
+              - generic [ref=e132]:
+                - generic [ref=e133] [cursor=pointer]:
+                  - checkbox [ref=e134]
+                  - img [ref=e135]
+                - paragraph [ref=e137]: FedEx Overnight
+              - generic [ref=e138]: Contact Information
+              - generic [ref=e140]:
+                - generic [ref=e141]: Name *
+                - textbox "Enter Name" [ref=e142]
+              - generic [ref=e144]:
+                - generic [ref=e145]: Email *
+                - textbox "Enter Email" [ref=e146]
+              - generic [ref=e148]:
+                - generic [ref=e149]: Phone *
+                - textbox "Enter Phone No." [ref=e150]
+              - generic [ref=e151]:
+                - generic [ref=e152]: Customer Address
+                - button "Change" [ref=e153] [cursor=pointer]
+              - generic [ref=e155]:
+                - generic [ref=e156]: Name *
+                - textbox "Enter Name" [ref=e157]
+              - generic [ref=e159]:
+                - generic [ref=e160]: No.
+                - textbox "Enter No." [ref=e161]
+              - generic [ref=e163]:
+                - generic [ref=e164]: Address 1 *
+                - textbox "Enter Address 1" [ref=e165]
+              - generic [ref=e167]:
+                - generic [ref=e168]: Address 2
+                - textbox "Enter Address 2" [ref=e169]
+              - generic [ref=e171]:
+                - generic [ref=e172]: City *
+                - textbox "Enter City" [ref=e173]
+              - generic [ref=e175]:
+                - generic [ref=e176]: State *
+                - generic [ref=e177]:
+                  - combobox "Select Option..." [ref=e178] [cursor=pointer]
+                  - textbox
+                  - img
+                  - group
+              - generic [ref=e180]:
+                - generic [ref=e181]: Zip Code *
+                - textbox "Enter Zip Code" [ref=e182]
+              - generic [ref=e184]:
+                - generic [ref=e185]: Country *
+                - generic [ref=e186]:
+                  - combobox "Select Option..." [ref=e187] [cursor=pointer]
+                  - textbox
+                  - img
+                  - group
+            - generic [ref=e189]:
+              - generic [ref=e190] [cursor=pointer]:
+                - checkbox [ref=e191]
+                - img [ref=e192]
+              - text: Different Billing Address
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e196]: Order Summary
+              - generic [ref=e197]:
+                - generic [ref=e198]: Product
+                - generic [ref=e199]: Qty
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - generic [ref=e203]:
+                    - img "Oncology Requisition form 793" [ref=e205]
+                    - generic [ref=e206]:
+                      - heading "Oncology Requisition form 793" [level=6] [ref=e207]
+                      - generic [ref=e208]: "SKU: 0793"
+                  - generic [ref=e211]:
+                    - spinbutton [ref=e212]: "6"
+                    - group
+                  - button "Remove" [ref=e214] [cursor=pointer]:
+                    - img "Remove" [ref=e215]
+                - generic [ref=e216]:
+                  - generic [ref=e217]:
+                    - img "Return Shipping Label to durham NC (Onc)" [ref=e219]
+                    - generic [ref=e220]:
+                      - heading "Return Shipping Label to durham NC (Onc)" [level=6] [ref=e221]
+                      - generic [ref=e222]: "SKU: 432911018"
+                  - generic [ref=e225]:
+                    - spinbutton [ref=e226]: "1"
+                    - group
+                  - button "Remove" [ref=e228] [cursor=pointer]:
+                    - img "Remove" [ref=e229]
+              - generic [ref=e230]:
+                - generic [ref=e231]: Special Instructions / Order Notes
+                - textbox "Add any notes to your order here" [ref=e232]
+              - button "Place Order Place Order" [ref=e234] [cursor=pointer]:
+                - text: Place Order
+                - img "Place Order" [ref=e236]
+            - generic [ref=e238]:
+              - paragraph [ref=e239]: Recurring Orders
+              - switch [ref=e242] [cursor=pointer]
+```

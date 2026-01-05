@@ -1,0 +1,135 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: Place New Order
+      - paragraph [ref=e15]: "*Indicates a required field"
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Search and Add Kit
+          - generic [ref=e20]:
+            - paragraph [ref=e21]: Upload CSV
+            - button "Upload" [ref=e23] [cursor=pointer]
+            - generic [ref=e24]:
+              - paragraph [ref=e25]: Material
+              - paragraph [ref=e26]: Qty
+            - generic [ref=e27]:
+              - generic [ref=e28]:
+                - paragraph [ref=e29]: Order Notes
+                - paragraph [ref=e30]: (Optional)
+              - textbox "Enter Notes" [ref=e31]
+          - generic [ref=e34]:
+            - generic [ref=e35] [cursor=pointer]:
+              - checkbox [ref=e36]
+              - img [ref=e37]
+            - paragraph [ref=e39]: Custom Requistion
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Client Details
+          - generic [ref=e42]:
+            - generic [ref=e44]:
+              - generic [ref=e46]:
+                - generic: Plan Name*
+                - generic [ref=e47]:
+                  - textbox "Plan Name*" [ref=e48]
+                  - group:
+                    - generic: Plan Name*
+              - generic [ref=e50]:
+                - generic: Plan Address*
+                - generic [ref=e51]:
+                  - textbox "Plan Address*" [ref=e52]
+                  - group:
+                    - generic: Plan Address*
+              - generic [ref=e54]:
+                - generic: City*
+                - generic [ref=e55]:
+                  - textbox "City*" [ref=e56]
+                  - group:
+                    - generic: City*
+              - generic [ref=e58]:
+                - generic: State*
+                - generic [ref=e59]:
+                  - textbox "State*" [ref=e60]
+                  - group:
+                    - generic: State*
+              - generic [ref=e62]:
+                - generic: Zip Code*
+                - generic [ref=e63]:
+                  - textbox "Zip Code*" [ref=e64]
+                  - group:
+                    - generic: Zip Code*
+            - generic [ref=e65]:
+              - heading "ATTN" [level=6] [ref=e66]
+              - generic [ref=e67]:
+                - generic [ref=e69]:
+                  - generic: Contact's name to receive order
+                  - generic [ref=e70]:
+                    - textbox "Contact's name to receive order" [ref=e71]
+                    - group:
+                      - generic: Contact's name to receive order
+                - generic [ref=e73]:
+                  - generic: Contact's Phone
+                  - generic [ref=e74]:
+                    - textbox "Contact's Phone" [ref=e75]
+                    - group:
+                      - generic: Contact's Phone
+                - textbox "Contact's Address" [ref=e77]
+                - textbox "Special Instructions (Optional)" [ref=e79]
+            - generic [ref=e80]:
+              - heading "Order Details" [level=6] [ref=e81]
+              - generic [ref=e82]:
+                - generic [ref=e84]:
+                  - generic [ref=e85]: Mail Date
+                  - generic [ref=e86]:
+                    - textbox "Mail Date" [ref=e87]
+                    - group:
+                      - generic: Mail Date
+                - generic [ref=e89]:
+                  - generic: Lab Ticket
+                  - generic [ref=e90]:
+                    - textbox "Lab Ticket" [ref=e91]
+                    - group:
+                      - generic: Lab Ticket
+                - generic [ref=e93]:
+                  - generic: Kit Name
+                  - generic [ref=e94]:
+                    - textbox "Kit Name" [ref=e95]
+                    - group:
+                      - generic: Kit Name
+                - generic [ref=e97]:
+                  - generic: Volume
+                  - generic [ref=e98]:
+                    - textbox "Volume" [ref=e99]
+                    - group:
+                      - generic: Volume
+            - generic [ref=e100]:
+              - heading "Return Address" [level=6] [ref=e101]
+              - generic [ref=e103]:
+                - generic: LabCorp Address*
+                - generic [ref=e104]:
+                  - textbox "LabCorp Address*" [ref=e105]
+                  - group:
+                    - generic: LabCorp Address*
+            - button "Place Order" [ref=e107] [cursor=pointer]:
+              - text: Place Order
+              - img [ref=e108]
+  - iframe [ref=e112]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```
