@@ -82,5 +82,53 @@ export const oncologyLocators = {
     page.locator('input[name="shippingCountry"]'),
 
   placeOrderButton: page =>
-    page.getByRole('button', { name: 'Place Order' })
+    page.getByRole('button', { name: 'Place Order' }),
+
+  // Sites tab
+  sitesTab: page =>
+    page.getByRole('link', { name: 'Sites' }),
+
+  // Add New Site button
+  addNewSiteButton: page =>
+    page.getByRole('button', { name: 'Add New Site' }),
+
+  // Site group selection (Labcorp)
+  siteGroupLabcorp: page =>
+    page.getByText('Labcorp', { exact: true }),
+
+  // Site Number
+  siteNumber: page =>
+    page.locator('[name="siteNumber"]'),
+
+  // Site Name
+  siteName: page =>
+    page.getByRole('textbox', { name: 'Site Name' }),
+
+  // Address 1
+  address1: page =>
+    page.getByRole('textbox', { name: 'Address 1' }),
+
+  // Address 2
+  address2: page =>
+    page.getByRole('textbox', { name: 'Address 2' }),
+
+  // City
+  city: page =>
+    page.getByRole('textbox', { name: 'City' }),
+
+  // State
+  state: page =>
+    page.getByRole('textbox', { name: 'State' }),
+
+  // Zip Code
+  zipCode: page =>
+    page.getByRole('textbox', { name: 'Zip Code' }),
+
+  // Cancel button
+  cancelButton: page =>
+    page.getByRole('button', { name: 'Cancel' }),
+
+  // Save button
+  saveButton: page =>
+    page.getByRole('button', { name: 'Save' })
 };
