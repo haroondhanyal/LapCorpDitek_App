@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 245807
+🟢 Site Name entered: Schmeler  Mann
+🟢 Site Address 1 entered: 50578 Isabelle Skyway
+🟢 Site Address 2 entered: Suite 797
+🟢 City entered: La Mirada
+🟢 State entered: Vermont
+🟢 Zip Code entered: 56182
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 53192 Grange Avenue
+🟢 Billing Address 2 entered: Apt. 850
+🟢 Billing City entered: Swiftside
+🟢 Billing State entered: Pennsylvania
+🟢 Billing Zip entered: 03001
+🟢 Billing Country entered: Svalbard & Jan Mayen Islands
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

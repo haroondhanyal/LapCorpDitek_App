@@ -1,6 +1,6 @@
 import { test } from '@playwright/test'
 import { loginUser } from '../utils/auth.utils.js'
-import users from '../config/user.json'
+import users from '../config/user.json' assert { type: 'json' }
 import { LoginPage } from '../pages/login.page.js'   // ✅ ADD THIS
 
 test('Login with OTP (Static Backend OTP)', async ({ page }) => {

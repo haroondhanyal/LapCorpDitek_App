@@ -26,7 +26,7 @@ export default defineConfig({
   /* Global settings */
   use: {
     baseURL: 'https://dev-labcorp.ditekapp.com',
-    headless: false,
+    headless: true,
     // screenshot: 'only-on-failure',
     screenshot: 'on',
     // video: 'retain-on-failure',

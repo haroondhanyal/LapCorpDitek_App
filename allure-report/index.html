@@ -2,23 +2,50 @@
 <html dir="ltr" lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Allure Report</title>
+
+    <!-- ✅ Custom Report Title -->
+    <title>SoftBuild – Automation Test Report</title>
+
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="plugin/screen-diff/styles.css">
 </head>
+
 <body>
+
+    <!-- ✅ COMPANY LOGO HEADER -->
+    <div style="
+        padding:12px 24px;
+        background:#ffffff;
+        border-bottom:1px solid #e5e5e5;
+        display:flex;
+        align-items:center;
+    ">
+        <img 
+            src="softbuildlogo.png" 
+            alt="SoftBuild Logo"
+            style="height:50px;"
+        />
+    </div>
+
+    <!-- Existing Allure Content -->
     <div id="alert"></div>
+
     <div id="content">
         <span class="spinner">
             <span class="spinner__circle"></span>
         </span>
     </div>
+
     <div id="popup"></div>
+
+    <!-- Scripts -->
     <script src="app.js"></script>
     <script src="plugin/behaviors/index.js"></script>
     <script src="plugin/packages/index.js"></script>
     <script src="plugin/screen-diff/index.js"></script>
+
+    <!-- Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVWC4GKEYS"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -26,9 +53,10 @@
         gtag('js', new Date());
         gtag('config', 'G-FVWC4GKEYS', {
           'allureVersion': '2.36.0',
-          'reportUuid': 'e5270808-a433-4781-88c7-3fe8fc7a3848',
+          'reportUuid': 'c7104e2e-324f-451a-8c9c-c221497fe7b0',
           'single_file': false
         });
     </script>
+
 </body>
 </html>

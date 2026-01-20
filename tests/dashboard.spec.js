@@ -1,6 +1,6 @@
 import { test } from '@playwright/test'
 import { loginUser } from '../utils/auth.utils.js'
-import users from '../config/user.json'
+import users from '../config/user.json' assert { type: 'json' }
 
 test('Dashboard should be visible after login', async ({ page }) => {
 

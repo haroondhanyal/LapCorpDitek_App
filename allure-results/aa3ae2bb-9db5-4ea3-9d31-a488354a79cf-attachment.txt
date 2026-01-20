@@ -1,6 +1,0 @@
-🔐 Using static OTP: 123456
-✅ Login + OTP completed
-🟢 Logged in successfully
-🔍 Selecting group → Single Site
-🟢 Group successfully selected → Single Site
-🟢 Single Site group selected

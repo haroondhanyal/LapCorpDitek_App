@@ -1,3 +1,0 @@
-🔐 Using static OTP: 123456
-✅ Login + OTP completed
-🔍 Selecting group → directToPatient
