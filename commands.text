@@ -1,0 +1,36 @@
+🚀 1️⃣ DITEK AUTOMATION
+(CI / CD – Bitbucket repo)
+
+
+🔥 Push commands (Bitbucket)
+cd ditek-ui-automation
+
+git status
+git add .
+git commit -m "Update Playwright CI pipeline and tests"
+git push origin main
+
+
+🧪 2️⃣ LAPCORP PROJECT
+
+🔥 Push commands (GitHub)
+cd LapCorpDitek_App
+
+git status
+git add .
+git commit -m "Update LapCorp Playwright automation"
+git push origin main
+
+QUICK CHECK (agar push fail ho)
+git remote -v
+
+
+📊 ALLURE REPORT – COMMANDS
+
+Runs after the test run 
+
+npx allure generate allure-results --clean -o allure-report
+
+open allure report
+
+npx allure open allure-report
