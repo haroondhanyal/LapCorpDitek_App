@@ -18,7 +18,7 @@ cd LapCorpDitek_App
 
 git status
 git add .
-git commit -m "Update LapCorp Playwright automation"
+git commit -m "Update LapCorp Playwright automation commands added"
 git push origin main
 
 QUICK CHECK (agar push fail ho)

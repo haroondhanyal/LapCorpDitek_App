@@ -1,0 +1,96 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - heading "Add New Site" [level=1] [ref=e14]
+      - generic [ref=e15]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: Site Group *
+          - generic [ref=e19]:
+            - combobox "Site Group * Direct to Patient" [disabled] [ref=e20]: Direct to Patient
+            - textbox [disabled]: "69"
+            - img
+            - group:
+              - generic: Site Group * *
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - text: Site Number
+            - generic [ref=e24]: "*"
+          - generic [ref=e25]:
+            - spinbutton "Site Number" [ref=e26]: "0"
+            - group:
+              - generic: Site Number *
+        - generic [ref=e28]:
+          - generic:
+            - text: Site Name
+            - generic: "*"
+          - generic [ref=e29]:
+            - textbox "Site Name" [ref=e30]
+            - group:
+              - generic: Site Name *
+        - generic [ref=e32]:
+          - generic:
+            - text: Site Address 1
+            - generic: "*"
+          - generic [ref=e33]:
+            - textbox "Site Address 1" [ref=e34]
+            - group:
+              - generic: Site Address 1 *
+        - generic [ref=e36]:
+          - generic: Site Address 2
+          - generic [ref=e37]:
+            - textbox "Site Address 2" [ref=e38]
+            - group:
+              - generic: Site Address 2
+        - generic [ref=e40]:
+          - generic:
+            - text: City
+            - generic: "*"
+          - generic [ref=e41]:
+            - textbox "City" [ref=e42]
+            - group:
+              - generic: City *
+        - generic [ref=e44]:
+          - generic:
+            - text: Site State
+            - generic: "*"
+          - generic [ref=e45]:
+            - textbox "Site State" [ref=e46]
+            - group:
+              - generic: Site State *
+        - generic [ref=e48]:
+          - generic:
+            - text: Site Zipcode
+            - generic: "*"
+          - generic [ref=e49]:
+            - textbox "Site Zipcode" [ref=e50]
+            - group:
+              - generic: Site Zipcode *
+        - generic [ref=e52]:
+          - checkbox "Different Billing Address" [ref=e53]
+          - heading "Different Billing Address" [level=3] [ref=e54]
+        - generic [ref=e56]:
+          - link "Cancel" [ref=e57] [cursor=pointer]:
+            - /url: /sites
+          - button "Save" [ref=e58] [cursor=pointer]
+  - iframe [ref=e61]:
+    - generic [ref=f5e2]:
+      - generic [ref=f5e5]:
+        - link "Privacy" [ref=f5e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f5e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f5e8]:
+        - generic [ref=f5e9]:
+          - text: protected by
+          - strong [ref=f5e10]: reCAPTCHA
+        - generic [ref=f5e11]: "-"
+```

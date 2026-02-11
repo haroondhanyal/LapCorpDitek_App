@@ -11,42 +11,28 @@ export class DirectToPatientPage {
   // 🧾 PLAN / SITE DETAILS
   // =================================================
   async fillPlanDetails(data) {
-    await DirectToPatientLocators.planName(this.page)
-      .fill(data.planName)
-
-    await DirectToPatientLocators.planAddress(this.page)
-      .fill(data.planAddress)
-
-    await DirectToPatientLocators.city(this.page)
-      .fill(data.city)
-
-    await DirectToPatientLocators.state(this.page)
-      .fill(data.state)
-
-    await DirectToPatientLocators.zipCode(this.page)
-      .fill(data.zipCode)
+    await DirectToPatientLocators.planName(this.page).fill(data.planName)
+    await DirectToPatientLocators.planAddress(this.page).fill(data.planAddress)
+    await DirectToPatientLocators.city(this.page).fill(data.city)
+    await DirectToPatientLocators.state(this.page).fill(data.state)
+    await DirectToPatientLocators.zipCode(this.page).fill(data.zipCode)
   }
 
   // =================================================
   // 👤 CONTACT DETAILS
   // =================================================
   async fillContactDetails(data) {
-    await DirectToPatientLocators.contactName(this.page)
-      .fill(data.contactName)
+    await DirectToPatientLocators.contactName(this.page).fill(data.contactName)
+    await DirectToPatientLocators.contactPhone(this.page).fill(data.contactPhone)
 
-    await DirectToPatientLocators.contactPhone(this.page)
-      .fill(data.contactPhone)
-
-    const address =
-      DirectToPatientLocators.contactAddress(this.page)
-
+    const address = DirectToPatientLocators.contactAddress(this.page)
     if (await address.count() > 0) {
       await address.first().fill(data.contactAddress)
     }
   }
 
   // =================================================
-  // 📝 SPECIAL INSTRUCTIONS
+  // 📝 OPTIONAL FIELDS
   // =================================================
   async fillSpecialInstructions(instructions) {
     if (instructions) {
@@ -56,30 +42,20 @@ export class DirectToPatientPage {
     }
   }
 
-  // =================================================
-  // 📅 MAIL DATE
-  // =================================================
   async selectMailDate(mailDate) {
     if (mailDate) {
-      await DirectToPatientLocators
-        .mailDate(this.page)
-        .fill(mailDate)
+      await DirectToPatientLocators.mailDate(this.page).fill(mailDate)
     }
   }
 
-  // =================================================
-  // 🧪 LAB TICKET
-  // =================================================
   async fillLabTicket(labTicket) {
     if (labTicket) {
-      await DirectToPatientLocators
-        .labTicket(this.page)
-        .fill(labTicket)
+      await DirectToPatientLocators.labTicket(this.page).fill(labTicket)
     }
   }
 
   // =================================================
-  // 📎 CSV UPLOAD
+  // 📎 CSV
   // =================================================
   async uploadCsv() {
     await DirectToPatientLocators
@@ -89,56 +65,43 @@ export class DirectToPatientPage {
     console.log('🟢 CSV uploaded')
   }
 
-  // =================================================
-  // 🧾 AFTER CSV – PATIENT / REQUISITION FIELDS
-  // =================================================
+  async uploadInvalidCsv(filePath) {
+    await DirectToPatientLocators
+      .csvFileInput(this.page)
+      .setInputFiles(filePath)
 
-  // ✏️ Notes
+    console.log('🟥 Invalid CSV uploaded')
+  }
+
+  // =================================================
+  // 🧾 AFTER CSV
+  // =================================================
   async enterNotes(notes) {
     if (notes) {
-      await DirectToPatientLocators
-        .enterNotes(this.page)
-        .fill(notes)
-
+      await DirectToPatientLocators.enterNotes(this.page).fill(notes)
       console.log('🟢 Notes entered')
     }
   }
 
- async enableCustomRequisition() {
-  await DirectToPatientLocators
-    .customRequisitionInput(this.page)
-    .click()
-
-  console.log('🟢 Custom Requisition checkbox enabled')
-}
-
-  // 📎 Patient Details 
-async enablePatientDetails() {
-  await DirectToPatientLocators
-    .patientDetailsInput(this.page)
-    .click()
-
-  console.log('🟢 Patient Details checkbox enabled')
-}
-
-  // 👁️ View + Close Patient Details
-  async viewPatientDetails() {
-    await DirectToPatientLocators
-      .viewPatientDetailsButton(this.page)
-      .click()
-    console.log('🟢 Patient details viewed')
+  async enableCustomRequisition() {
+    await DirectToPatientLocators.customRequisitionInput(this.page).click()
+    console.log('🟢 Custom Requisition enabled')
   }
 
-   async ClosePatientDetails() {
-    await DirectToPatientLocators
-      .closePatientDetailsIcon(this.page)
-      .click()
+  async enablePatientDetails() {
+    await DirectToPatientLocators.patientDetailsInput(this.page).click()
+  }
 
-    console.log('🟢 Patient details  closed')
+  async viewPatientDetails() {
+    await DirectToPatientLocators.viewPatientDetailsButton(this.page).click()
+  }
+
+  async ClosePatientDetails() {
+    await DirectToPatientLocators.closePatientDetailsIcon(this.page).click()
   }
 
   // =================================================
-  // 📎 PDF UPLOAD
+  // 📎 PDF
   // =================================================
   async uploadPdfTemplate() {
     await DirectToPatientLocators
@@ -149,104 +112,101 @@ async enablePatientDetails() {
   }
 
   // =================================================
+  // ❌ COMMON VALIDATION (NEGATIVE)
+  // =================================================
+  async getValidationError() {
+    const error = this.page.locator(
+      '.error-message, .validation-error, [role="alert"]'
+    )
+
+    await error.first().waitFor({ state: 'visible', timeout: 10000 })
+    return await error.first().innerText()
+  }
+
+  async isNotesErrorVisible() {
+    return await this.page
+      .locator('#notes-error, .notes-error')
+      .isVisible()
+      .catch(() => false)
+  }
+
+  async isCustomRequisitionErrorVisible() {
+    return await this.page
+      .locator('#custom-requisition-error, .custom-requisition-error')
+      .isVisible()
+      .catch(() => false)
+  }
+
+  // =================================================
   // 🚀 PLACE ORDER
   // =================================================
   async placeOrder() {
-
-  // 1️⃣ wait for loader to disappear
-  await this.page.locator('div[class*="loaderOverlay"]').waitFor({
-    state: 'hidden',
-    timeout: 60000
-  });
-
-  // 2️⃣ ensure button is enabled & visible
-  const button = DirectToPatientLocators.placeOrderButton(this.page);
-  await button.waitFor({ state: 'visible' });
-  await this.page.waitForLoadState('networkidle');
-
-  // 3️⃣ click
-  await button.click();
-
-  console.log('🟢 Place Order clicked');
-}
-
- // order confirmation handling
-
-async handleOrderConfirmation() {
-
-  // 👉 safety check
-  if (this.page.isClosed()) {
-    console.log('⚠ Page already closed — skipping confirmation handling')
-    return
-  }
-
-  const modal = DirectToPatientLocators.orderConfirmationModal(this.page)
-
-  console.log('⏳ Waiting for Order Confirmation modal...')
-
-  try {
-
-    // // 1️⃣ modal enters DOM
-    // await modal.waitFor({ state: 'attached', timeout: 60000 })
-
-    // 2️⃣ small animation wait
-    await this.page.waitForTimeout(1000)
-
-    // 3️⃣ modal becomes visible
-    await modal.waitFor({ state: 'visible', timeout: 60000 })
-
-    console.log('🟢 Order Confirmation modal appeared')
-
-    // 4️⃣ button locator
-    const submitAdditionalBtn =
-      DirectToPatientLocators.submitAdditionalOrderButton(this.page)
-
-    // 5️⃣ wait for button visible
-    await submitAdditionalBtn.waitFor({
-      state: 'visible',
-      timeout: 40000
+    await this.page.locator('div[class*="loaderOverlay"]').waitFor({
+      state: 'hidden',
+      timeout: 60000
     })
 
-    // 6️⃣ click button
-    await submitAdditionalBtn.click()
+    const button =
+      DirectToPatientLocators.placeOrderButton(this.page)
 
-    console.log('🟢 Submit Additional Order clicked')
+    await button.waitFor({ state: 'visible' })
+    await this.page.waitForLoadState('networkidle')
+    await button.click()
 
-  } catch (e) {
-    console.log('⚠ Modal did NOT appear or page closed')
-    console.log('Error:', e.message)
+    console.log('🟢 Place Order clicked')
   }
-}
 
   // =================================================
-  // ✅ COMPLETE E2E FLOW (ONE CALL)
+  // ✅ POSITIVE CONFIRMATION
   // =================================================
-  async completeDirectToPatientFlow(data) {
-    // 1️⃣ Basic details
+  async handleOrderConfirmation() {
+    const modal =
+      DirectToPatientLocators.orderConfirmationModal(this.page)
+
+    try {
+      await modal.waitFor({ state: 'visible', timeout: 60000 })
+      await DirectToPatientLocators
+        .submitAdditionalOrderButton(this.page)
+        .click()
+    } catch {
+      console.log('⚠ Order confirmation not shown')
+    }
+  }
+
+  async isOrderConfirmationVisible() {
+    try {
+      return await DirectToPatientLocators
+        .orderConfirmationModal(this.page)
+        .isVisible()
+    } catch {
+      return false
+    }
+  }
+
+  // =================================================
+  // 🔁 BASE FLOW FOR NEGATIVE TESTS
+  // =================================================
+  async completeNegativeBaseFlow(data) {
     await this.fillPlanDetails(data)
     await this.fillContactDetails(data)
-    await this.fillSpecialInstructions(data.specialInstructions)
-
-    // 2️⃣ Extra details
     await this.selectMailDate(data.mailDate)
     await this.fillLabTicket(data.labTicket)
+  }
 
-    // 3️⃣ Uploads
+  // =================================================
+  // ✅ COMPLETE POSITIVE FLOW
+  // =================================================
+  async completeDirectToPatientFlow(data) {
+    await this.completeNegativeBaseFlow(data)
+
     await this.uploadCsv()
-
-    // 4️⃣ AFTER CSV
     await this.enterNotes(data.notes)
     await this.enableCustomRequisition()
     await this.enablePatientDetails()
     await this.viewPatientDetails()
     await this.ClosePatientDetails()
-
-    // 5️⃣ PDF + Submit
     await this.uploadPdfTemplate()
     await this.placeOrder()
-      // 🧾 WAIT & HANDLE CONFIRMATION MODAL
-  await this.handleOrderConfirmation()
+    await this.handleOrderConfirmation()
   }
 }
-
-

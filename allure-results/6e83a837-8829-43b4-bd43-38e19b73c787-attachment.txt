@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 487567
+🟢 Site Name entered: Beier  Jacobson
+🟢 Site Address 1 entered: 949 Main Road
+🟢 Site Address 2 entered: Apt. 357
+🟢 City entered: Schmelerburgh
+🟢 State entered: Illinois
+🟢 Zip Code entered: 87593
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 53591 Hillside Road
+🟢 Billing Address 2 entered: Apt. 753
+🟢 Billing City entered: Arlington
+🟢 Billing State entered: North Carolina
+🟢 Billing Zip entered: 09800
+🟢 Billing Country entered: Ghana
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

@@ -1,0 +1,55 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "Second Image" [ref=e6]
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - heading "AMBE APP" [level=1] [ref=e10]
+        - paragraph [ref=e11]: Powered By Ditek/Medzah
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - heading "Welcome Back" [level=1] [ref=e14]
+          - paragraph [ref=e15]: Enter your email address and password to continue.
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - text: Email Address
+            - generic [ref=e18]: "*"
+          - generic [ref=e19]:
+            - img [ref=e20]
+            - textbox "Email Address" [ref=e23]: rharoon@medzah.com
+            - group:
+              - generic: Email Address *
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - text: Password
+            - generic [ref=e26]: "*"
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - textbox "Password" [ref=e31]: demouser1
+            - group:
+              - generic: Password *
+        - generic [ref=e32]:
+          - paragraph [ref=e34]:
+            - checkbox [checked] [ref=e35]
+            - text: Remember me
+          - link "Forgot Password?" [ref=e37] [cursor=pointer]:
+            - /url: /forgot-password
+            - paragraph [ref=e38]: Forgot Password?
+        - button "Sign In" [ref=e39] [cursor=pointer]: Sign In
+      - generic [ref=e40]: LABCORP Single Site - VBC Ordering
+  - iframe [ref=e43]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```

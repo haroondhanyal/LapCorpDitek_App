@@ -1,1 +1,1 @@
-{"reportName":"Allure Report","testRuns":[],"statistic":{"failed":5,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":9},"time":{"start":1768924344173,"stop":1768924648515,"duration":304342,"minDuration":32352,"maxDuration":304342,"sumDuration":1174865}}
+{"reportName":"QA Automation Report","testRuns":[],"statistic":{"failed":27,"broken":1,"skipped":2,"passed":9,"unknown":0,"total":39},"time":{"start":1769789392550,"stop":1770742886102,"duration":953493552,"minDuration":0,"maxDuration":181337,"sumDuration":1133916}}

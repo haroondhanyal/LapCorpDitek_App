@@ -1,0 +1,41 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "Second Image" [ref=e6]
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - heading "AMBE APP" [level=1] [ref=e10]
+        - paragraph [ref=e11]: Powered By Ditek/Medzah
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - heading "Login Verification" [level=1] [ref=e14]
+          - paragraph [ref=e15]: An OTP code has been sent to your registered email address. Please check your inbox and enter the code to complete the login process.
+        - generic [ref=e16]:
+          - textbox [active] [ref=e17]
+          - textbox [ref=e18]
+          - textbox [ref=e19]
+          - textbox [ref=e20]
+          - textbox [ref=e21]
+          - textbox [ref=e22]
+        - generic [ref=e23]:
+          - paragraph [ref=e24]: 1:38
+          - paragraph [ref=e25]: Resend OTP
+        - button "Verify OTP" [ref=e26] [cursor=pointer]: Verify OTP
+        - button "Back to Login" [ref=e27] [cursor=pointer]: Back to Login
+      - generic [ref=e28]: LABCORP Single Site - VBC Ordering
+  - iframe [ref=e31]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```

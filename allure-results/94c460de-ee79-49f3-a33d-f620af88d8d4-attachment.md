@@ -1,0 +1,154 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - link "Labcorp" [ref=e9] [cursor=pointer]:
+        - /url: /new-order
+        - img "Labcorp" [ref=e10]
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: Place New Order
+      - paragraph [ref=e15]: "*Indicates a required field"
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Search and Add Kit
+          - generic [ref=e20]:
+            - paragraph [ref=e21]: Upload CSV
+            - button "Upload" [ref=e23] [cursor=pointer]
+            - generic [ref=e24]:
+              - paragraph [ref=e25]: Material
+              - paragraph [ref=e26]: Qty
+            - generic [ref=e27]:
+              - generic [ref=e28]:
+                - paragraph [ref=e29]: Order Notes
+                - paragraph [ref=e30]: (Optional)
+              - textbox "Enter Notes" [ref=e31]
+          - generic [ref=e34]:
+            - generic [ref=e35] [cursor=pointer]:
+              - checkbox [ref=e36]
+              - img [ref=e37]
+            - paragraph [ref=e39]: Custom Requistion
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e43] [cursor=pointer]:
+                - checkbox [checked] [active] [ref=e44]
+                - img [ref=e45]
+              - paragraph [ref=e47]: Patient Details
+            - generic [ref=e53]:
+              - paragraph [ref=e55]: "Total Patients Added:"
+              - button "View Patient Details" [disabled]:
+                - text: View Patient Details
+                - generic:
+                  - img
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: Client Details
+          - generic [ref=e58]:
+            - generic [ref=e60]:
+              - generic [ref=e62]:
+                - generic: Plan Name*
+                - generic [ref=e63]:
+                  - textbox "Plan Name*" [ref=e64]
+                  - group:
+                    - generic: Plan Name*
+              - generic [ref=e66]:
+                - generic: Plan Address*
+                - generic [ref=e67]:
+                  - textbox "Plan Address*" [ref=e68]
+                  - group:
+                    - generic: Plan Address*
+              - generic [ref=e70]:
+                - generic: City*
+                - generic [ref=e71]:
+                  - textbox "City*" [ref=e72]
+                  - group:
+                    - generic: City*
+              - generic [ref=e74]:
+                - generic: State*
+                - generic [ref=e75]:
+                  - textbox "State*" [ref=e76]
+                  - group:
+                    - generic: State*
+              - generic [ref=e78]:
+                - generic: Zip Code*
+                - generic [ref=e79]:
+                  - textbox "Zip Code*" [ref=e80]
+                  - group:
+                    - generic: Zip Code*
+            - generic [ref=e81]:
+              - heading "ATTN" [level=6] [ref=e82]
+              - generic [ref=e83]:
+                - generic [ref=e85]:
+                  - generic: Contact's name to receive order
+                  - generic [ref=e86]:
+                    - textbox "Contact's name to receive order" [ref=e87]
+                    - group:
+                      - generic: Contact's name to receive order
+                - generic [ref=e89]:
+                  - generic: Contact's Phone
+                  - generic [ref=e90]:
+                    - textbox "Contact's Phone" [ref=e91]
+                    - group:
+                      - generic: Contact's Phone
+                - textbox "Contact's Address" [ref=e93]
+                - textbox "Special Instructions (Optional)" [ref=e95]
+            - generic [ref=e96]:
+              - heading "Order Details" [level=6] [ref=e97]
+              - generic [ref=e98]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Mail Date
+                  - generic [ref=e102]:
+                    - textbox "Mail Date" [ref=e103]
+                    - group:
+                      - generic: Mail Date
+                - generic [ref=e105]:
+                  - generic: Lab Ticket
+                  - generic [ref=e106]:
+                    - textbox "Lab Ticket" [ref=e107]
+                    - group:
+                      - generic: Lab Ticket
+                - generic [ref=e109]:
+                  - generic: Kit Name
+                  - generic [ref=e110]:
+                    - textbox "Kit Name" [ref=e111]
+                    - group:
+                      - generic: Kit Name
+                - generic [ref=e113]:
+                  - generic: Volume
+                  - generic [ref=e114]:
+                    - textbox "Volume" [ref=e115]
+                    - group:
+                      - generic: Volume
+            - generic [ref=e116]:
+              - heading "Return Address" [level=6] [ref=e117]
+              - generic [ref=e119]:
+                - generic: LabCorp Address*
+                - generic [ref=e120]:
+                  - textbox "LabCorp Address*" [ref=e121]
+                  - group:
+                    - generic: LabCorp Address*
+              - generic [ref=e123]:
+                - heading "In-Kit Letter Template" [level=6] [ref=e124]
+                - generic [ref=e125]:
+                  - button "Upload Template" [ref=e126] [cursor=pointer]:
+                    - img [ref=e128]
+                    - text: Upload Template
+                  - text: "Allowed formats: PDF, DOC, DOCX (Max size: 10MB)"
+            - button "Place Order" [ref=e131] [cursor=pointer]:
+              - text: Place Order
+              - img [ref=e132]
+  - iframe [ref=e136]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e5]:
+        - link "Privacy" [ref=f1e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]:
+          - text: protected by
+          - strong [ref=f1e10]: reCAPTCHA
+        - generic [ref=f1e11]: "-"
+```

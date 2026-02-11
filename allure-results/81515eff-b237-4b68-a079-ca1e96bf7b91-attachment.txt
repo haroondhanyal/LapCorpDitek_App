@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 319772
+🟢 Site Name entered: Rowe  Abernathy
+🟢 Site Address 1 entered: 30076 Adams Camp
+🟢 Site Address 2 entered: Suite 819
+🟢 City entered: Lake Marty
+🟢 State entered: Indiana
+🟢 Zip Code entered: 88858
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 7567 South View
+🟢 Billing Address 2 entered: Apt. 293
+🟢 Billing City entered: Lake Columbus
+🟢 Billing State entered: Minnesota
+🟢 Billing Zip entered: 11075
+🟢 Billing Country entered: Solomon Islands
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

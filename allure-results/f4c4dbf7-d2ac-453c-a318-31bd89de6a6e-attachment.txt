@@ -1,0 +1,7 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+➡️ OTP submitted, login flow completed
+🟢 Group clicked: directToPatient
+🟢 Continue button clicked
+✅ Group selected successfully: directToPatient
+➡️ Direct to Patient selected, continued successfully

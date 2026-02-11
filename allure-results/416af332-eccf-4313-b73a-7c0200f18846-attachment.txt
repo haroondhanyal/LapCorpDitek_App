@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 753021
+🟢 Site Name entered: Carter  Torp
+🟢 Site Address 1 entered: 2430 Terrence Flat
+🟢 Site Address 2 entered: Apt. 499
+🟢 City entered: South Fernandoboro
+🟢 State entered: Idaho
+🟢 Zip Code entered: 39118
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 37956 Lockman Groves
+🟢 Billing Address 2 entered: Suite 854
+🟢 Billing City entered: North Kaylah
+🟢 Billing State entered: North Dakota
+🟢 Billing Zip entered: 38234
+🟢 Billing Country entered: Norfolk Island
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

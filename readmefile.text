@@ -316,3 +316,6 @@ page.getByText('Mar', { exact: true })
 
 from jan to dec sary months
 
+npx playwright test tests/DirectToPatient/direct-to-patient.spec.js --headed
+npx allure generate allure-results --clean -o allure-report
+npx allure open allure-report
