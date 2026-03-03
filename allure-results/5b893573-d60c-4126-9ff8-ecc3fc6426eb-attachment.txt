@@ -1,0 +1,11 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Group clicked: directToPatient
+🟢 Continue button clicked
+✅ Group selected successfully: directToPatient
+✅ Login successful & group selected
+🟢 CSV uploaded
+🟢 Notes entered
+🟢 Custom Requisition enabled
+🟢 PDF uploaded
+🟢 Place Order clicked

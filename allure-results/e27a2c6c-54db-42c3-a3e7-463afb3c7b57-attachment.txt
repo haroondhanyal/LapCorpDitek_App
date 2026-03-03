@@ -1,0 +1,28 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Logged in successfully
+🟢 Group clicked: singleSite
+🟢 Continue button clicked
+✅ Group selected successfully: singleSite
+🟢 Single Site group selected
+🟢 Sites page opened successfully
+🟢 Add New Site form opened
+🟢 Site Number entered: 734069
+🟢 Site Name entered: Daniel and Sons
+🟢 Site Address 1 entered: 3603 Friesen Club
+🟢 Site Address 2 entered: Suite 439
+🟢 City entered: South Bricefort
+🟢 State entered: Virginia
+🟢 Zip Code entered: 49804
+🟢 All site details filled
+🟢 Different billing enabled
+🟢 Billing Address 1 entered: 7127 S Jackson Street
+🟢 Billing Address 2 entered: Suite 873
+🟢 Billing City entered: Rodriguezside
+🟢 Billing State entered: North Carolina
+🟢 Billing Zip entered: 33656
+🟢 Billing Country entered: Brazil
+🟢 All billing details filled
+🟢 Save clicked
+🏁 Add New Site flow completed successfully
+🎉 Add New Site successfully automated

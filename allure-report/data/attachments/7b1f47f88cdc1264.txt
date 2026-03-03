@@ -1,0 +1,21 @@
+🔐 Using static OTP: 123456
+✅ Login + OTP completed
+🟢 Group clicked: directToPatient
+🟢 Continue button clicked
+✅ Group selected successfully: directToPatient
+🟢 Orders page opened directly by URL
+✅ Orders page opened successfully
+🟢 Opened order at index 0
+✅ Order opened successfully
+✅  CSV File downloaded successfully
+✅  XLS File downloaded successfully
+🟢 View Patient Details button clicked
+✅  Patient details shown successfully
+✅ Selected option: To Update Records
+🟢 Patient details opened successfully
+✅ Protected Access handled successfully
+🟢 Hide Patient Details button clicked
+✅  Patient details hidden successfully
+🟢 View File button clicked
+🟢 Close File view icon clicked
+✅  File view opened and closed successfully

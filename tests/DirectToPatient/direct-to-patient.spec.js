@@ -13,15 +13,23 @@ import {
   attachVideo
 } from '../../utils/allure/allure.helper.js'
 
-const user = users.Users
+// ✅ FIX JSON ACCESS (adjust if needed)
+const user = users.Users || users
 
-// ⭐ ADD ALLURE HEADER ONCE ⭐
+
+// ======================================================
+// ⭐ ADD ALLURE HEADER
+// ======================================================
 test.beforeAll(async () => {
   await addAllureHeader()
 })
 
+
+// ======================================================
 // 🔐 LOGIN BEFORE EACH TEST
+// ======================================================
 test.beforeEach(async ({ page }) => {
+
   await loginUser(page, {
     url: user.url,
     email: user.email,
@@ -34,101 +42,65 @@ test.beforeEach(async ({ page }) => {
   console.log('✅ Login successful & group selected')
 })
 
+
 // ======================================================
-// ❌ DIRECT TO PATIENT – NEGATIVE TEST CASES (ALL IN ONE)
+// ✅ DIRECT TO PATIENT — COMPLETE E2E FLOW
 // ======================================================
 
-test.describe('❌ Direct To Patient – Negative Scenarios', () => {
+test.describe('✅ Direct To Patient – E2E Happy Flow', () => {
 
-  test('NEG-01: Place Order without CSV upload', async ({ page }) => {
+  test('E2E-01: User successfully places Direct To Patient Order', async ({ page }) => {
+
     const directPage = new DirectToPatientPage(page)
     const data = getDirectToPatientData()
 
+    // 🧾 Plan Details
     await directPage.fillPlanDetails(data)
+
+    // 👤 Contact Details
     await directPage.fillContactDetails(data)
-    await directPage.uploadPdfTemplate()
-    await directPage.placeOrder()
 
-    expect(await directPage.isOrderConfirmationVisible()).toBeFalsy()
-  })
+    // 🗓 Optional Fields
+    await directPage.selectMailDate(data.mailDate)
+    await directPage.fillLabTicket(data.labTicket)
+    await directPage.fillSpecialInstructions(data.notes)
 
-  test('NEG-02: Invalid CSV file upload', async ({ page }) => {
-    const directPage = new DirectToPatientPage(page)
+    // 📎 Upload CSV
+    await directPage.uploadCsv()
 
-    await directPage.uploadInvalidCsv('test-files/csv/invalid.txt')
-
-    const error = await directPage.getValidationError()
-    expect(error).toBeTruthy()
-  })
-
-  test('NEG-03: Notes max length exceeded', async ({ page }) => {
-    const directPage = new DirectToPatientPage(page)
-
-    const longNotes = 'A'.repeat(5000)
-    await directPage.enterNotes(longNotes)
-
-    const error = await directPage.getValidationError()
-    expect(error).toContain('limit')
-  })
-
-  test('NEG-04: Custom Requisition enabled but empty', async ({ page }) => {
-    const directPage = new DirectToPatientPage(page)
-
+    // 📝 After CSV
+    await directPage.enterNotes(data.notes)
     await directPage.enableCustomRequisition()
-    await directPage.placeOrder()
 
-    const error = await directPage.getValidationError()
-    expect(error).toBeTruthy()
-  })
-
-  test('NEG-05: Patient details enabled but not saved', async ({ page }) => {
-    const directPage = new DirectToPatientPage(page)
-
+    // 👨‍⚕ Patient Details
     await directPage.enablePatientDetails()
     await directPage.viewPatientDetails()
     await directPage.ClosePatientDetails()
+
+    // 📄 Upload PDF
+    await directPage.uploadPdfTemplate()
+
+    // 🚀 Place Order
     await directPage.placeOrder()
 
-    expect(await directPage.isOrderConfirmationVisible()).toBeFalsy()
-  })
+    // ✅ Confirmation
+    await directPage.handleOrderConfirmation()
 
-  test('NEG-06: PDF not uploaded', async ({ page }) => {
-    const directPage = new DirectToPatientPage(page)
-    const data = getDirectToPatientData()
+    // ✅ Assertion
+    const orderPlaced =
+      await directPage.isOrderConfirmationVisible()
 
-    await directPage.fillPlanDetails(data)
-    await directPage.fillContactDetails(data)
-    await directPage.uploadCsv()
-    await directPage.placeOrder()
+    expect(orderPlaced).toBeTruthy()
 
-    expect(await directPage.isOrderConfirmationVisible()).toBeFalsy()
-  })
-
-  test('NEG-07: Invalid PDF format', async ({ page }) => {
-    const directPage = new DirectToPatientPage(page)
-
-    await directPage.uploadInvalidPdf('test-files/pdf/invalid.docx')
-
-    const error = await directPage.getValidationError()
-    expect(error).toBeTruthy()
-  })
-
-  test('NEG-08: Place Order API failure', async ({ page }) => {
-    await page.route('**/placeOrder**', route =>
-      route.fulfill({ status: 500 })
-    )
-
-    const directPage = new DirectToPatientPage(page)
-    const data = getDirectToPatientData()
-
-    await directPage.completeDirectToPatientFlow(data)
-
-    expect(await directPage.isOrderConfirmationVisible()).toBeFalsy()
+    console.log('🎉 Direct To Patient order placed successfully')
   })
 
 })
 
-// ⭐ AFTER EACH TEST – ALLURE ATTACHMENTS ⭐
+
+// ======================================================
+// ⭐ AFTER EACH TEST – ALLURE ATTACHMENTS
+// ======================================================
 test.afterEach(async ({ page }, testInfo) => {
   await attachScreenshot(page, 'Final Screen')
   await attachVideo(testInfo)

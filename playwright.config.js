@@ -9,12 +9,14 @@ export default defineConfig({
   timeout: 180000, // <-- added
 
   /* Parallel execution */
-  fullyParallel: true,
+  // fullyParallel: true,
+  fullyParallel: false,
+  workers: 1,
 
   /* Safety on CI */
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
+  // workers: process.env.CI ? 1 : undefined,
 
   /* Reports */
   reporter: [
